@@ -6,6 +6,10 @@ var Router = Ember.Router.extend({
 });
 
 Router.map(function() {
+  this.route('modern-web-ui');
+  this.route('modern-web-podcast');
+  this.route('beginners');
+  this.route('welcome');
 });
 
 export default Router;
