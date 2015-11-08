@@ -1,6 +1,7 @@
 <nav>
 	<div class="nav-wrapper light-blue">
-		<a href="#!" class="brand-logo center">Modern Web</a>
+	<div class="container">
+		<a href="#!" class="brand-logo">Modern Web</a>
 		<a href="#" data-activates="mobile-demo" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
 		<ul class="right hide-on-med-and-down">
 			{{#link-to 'modern-web-podcast' tagName='li'}}
@@ -11,6 +12,9 @@
 			{{/link-to}}
 			{{#link-to 'beginners' tagName='li'}}
 			<a>For Beginners</a>
+			{{/link-to}}
+			{{#link-to 'friends' tagName='li'}}
+			<a>Friends</a>
 			{{/link-to}}
 		</ul>
 		<ul class="side-nav" id="mobile-demo">
@@ -23,6 +27,10 @@
 			{{#link-to 'beginners' tagName='li'}}
 			<a>For Beginners</a>
 			{{/link-to}}
+			{{#link-to 'friends' tagName='li'}}
+			<a>Friends</a>
+			{{/link-to}}
 		</ul>
+	</div>
 	</div>
 </nav>

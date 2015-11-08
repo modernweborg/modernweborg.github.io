@@ -10,6 +10,7 @@ Router.map(function() {
   this.route('modern-web-podcast');
   this.route('beginners');
   this.route('welcome');
+  this.route('friends');
 });
 
 export default Router;

@@ -1,0 +1,15 @@
+<div class="col s12 m6 l3">
+	{{#md-card class="z-depth-1" title=speakers.cardTitle image=speakers.image activator=true}}
+  	{{#md-card-content}}
+    <div>
+    	{{speakers.title}}
+    </div>
+    <div>
+    	{{speakers.cardContent}}
+    </div>
+  	{{/md-card-content}}
+  	{{#md-card-reveal}}
+	{{speakers.revealContent}}
+  	{{/md-card-reveal}}
+	{{/md-card}}
+</div>
