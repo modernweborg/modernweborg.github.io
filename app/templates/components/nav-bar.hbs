@@ -1,1 +1,28 @@
-{{yield}}
+<nav>
+	<div class="nav-wrapper light-blue">
+		<a href="#!" class="brand-logo center">Modern Web</a>
+		<a href="#" data-activates="mobile-demo" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
+		<ul class="right hide-on-med-and-down">
+			{{#link-to 'modern-web-podcast' tagName='li'}}
+			<a>Podcast</a>
+			{{/link-to}}
+			{{#link-to 'modern-web-ui' tagName='li'}}
+			<a>Modern Web UI</a>
+			{{/link-to}}
+			{{#link-to 'beginners' tagName='li'}}
+			<a>For Beginners</a>
+			{{/link-to}}
+		</ul>
+		<ul class="side-nav" id="mobile-demo">
+			{{#link-to 'modern-web-podcast' tagName='li'}}
+			<a>Podcast</a>
+			{{/link-to}}
+			{{#link-to 'modern-web-ui' tagName='li'}}
+			<a>Modern Web UI</a>
+			{{/link-to}}
+			{{#link-to 'beginners' tagName='li'}}
+			<a>For Beginners</a>
+			{{/link-to}}
+		</ul>
+	</div>
+</nav>
