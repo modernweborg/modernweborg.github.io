@@ -4,7 +4,7 @@ export default Ember.Controller.extend({
 	actions: {
 		addSignup: function () {
 			var newSignup = this.store.createRecord (
-				'signup', {
+				'sign-up', {
 					firstName: this.get ('firstName'),
 					lastName: this.get ('lastName'),
 					email: this.get ('email')
