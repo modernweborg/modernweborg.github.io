@@ -1,4 +1,5 @@
 <div class="container">
+	
 	{{!-- mwui logo --}}
 	<div class="row">
 		<div class="col s12">
@@ -8,55 +9,21 @@
 		</div>
 	</div>
 	{{!-- end mwui logo --}}
-	{{!-- test video --}}
-	<div class="row">
-		{{#each videos as |featuredvideo|}}
-		{{featured-video featuredvideo=featuredvideo}}
-		{{/each}}
-	</div>
-	{{!-- end test video --}}
+	
 	{{!-- videos --}}
 	<div class="row">
 		<div class="col s12">
 			<h5>Featured Videos</h5>
 		</div>
-		<div class="col s12 m6 l4">
-			<p class="video-container">
-				<iframe width="640" height="360" src="https://www.youtube.com/embed/7CmLV4NkbYE?rel=0" frameborder="0" allowfullscreen></iframe>
-			</p>
-			<p>
-				Modern Web UI: "The Road to Native Web Components", by Mike North
-			</p>
-		</div>
-		<div class="col s12 m6 l4">
-			<p class="video-container">
-				<iframe width="640" height="360" src="https://www.youtube.com/embed/7CmLV4NkbYE?rel=0" frameborder="0" allowfullscreen></iframe>
-			</p>
-			<p>
-				Modern Web UI: "The Road to Native Web Components", by Mike North
-			</p>
-		</div>
-		<div class="col s12 m6 l4">
-			<p class="video-container">
-				<iframe width="640" height="360" src="https://www.youtube.com/embed/7CmLV4NkbYE?rel=0" frameborder="0" allowfullscreen></iframe>
-			</p>
-			<p>
-				Modern Web UI: "The Road to Native Web Components", by Mike North
-			</p>
-		</div>
-		<div class="col s12 m6 l4">
-			<p class="video-container">
-				<iframe width="640" height="360" src="https://www.youtube.com/embed/7CmLV4NkbYE?rel=0" frameborder="0" allowfullscreen></iframe>
-			</p>
-			<p>
-				Modern Web UI: "The Road to Native Web Components", by Mike North
-			</p>
+		<div class="row">
+			{{#each videos as |featuredvideo|}}
+				{{featured-video featuredvideo=featuredvideo}}
+			{{/each}}	
 		</div>
 	</div>
-	
 	{{!-- end videos --}}
+
 	{{!-- featured speakers section --}}
-	
 	<div class="row">
 		<div class="col s12">
 			<h5>Featured Speakers</h5>
@@ -68,4 +35,5 @@
 		</div>
 	</div>
 	{{!-- end featured speakers section --}}
+
 </div>
