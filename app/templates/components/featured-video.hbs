@@ -1,17 +1,9 @@
-<div class="col s12 m6 l4">
-	<p class="video-container">
-		<iframe width="640" height="360" src="{{featuredvideo.videoURL}}" frameborder="0" allowfullscreen></iframe>
-	</p>
-	<p>
-		<strong>{{featuredvideo.videoTitle}}</strong>
-	</p>
-	
-	<p>
-		{{featuredvideo.presenters}}
-	</p>
-
-	<p>
-		{{featuredvideo.keyTopics}}
-	</p>
-
+<div class="col s12 m6 14">
+  <div class="card">
+    <div class="card-content black-text">
+      <span class="card-title small">{{video.videoTitle}}</span>
+      <iframe style="position: relative; height: 360px; width: 100%;" src="{{video.videoURL}}" frameborder="0" allowfullscreen></iframe>
+      <span class="card-footer small">{{video.presenters}}</span>
+    </div>
+  </div>
 </div>

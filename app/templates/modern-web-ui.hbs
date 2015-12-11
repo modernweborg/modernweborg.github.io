@@ -1,39 +1,39 @@
 <div class="container">
-	
-	{{!-- mwui logo --}}
-	<div class="row">
-		<div class="col s12">
-			<p class="text-center">
-				<img src="img/modern-web-ui-logo.png" alt="Modern Web UI logo">
-			</p>
-		</div>
-	</div>
-	{{!-- end mwui logo --}}
-	
-	{{!-- videos --}}
-	<div class="row">
-		<div class="col s12">
-			<h5>Featured Videos</h5>
-		</div>
-		<div class="row">
-			{{#each videos as |featuredvideo|}}
-				{{featured-video featuredvideo=featuredvideo}}
-			{{/each}}	
-		</div>
-	</div>
-	{{!-- end videos --}}
 
-	{{!-- featured speakers section --}}
-	<div class="row">
-		<div class="col s12">
-			<h5>Featured Speakers</h5>
-		</div>
-		<div class="col s12">
-			{{#each speakers as |speaker|}}
-			{{speaker-profile-card speaker=speaker}}
-			{{/each}}
-		</div>
-	</div>
-	{{!-- end featured speakers section --}}
+  {{!-- mwui logo --}}
+  <div class="row">
+    <div class="col s12">
+      <p class="text-center">
+        <img src="img/modern-web-ui-logo.png" alt="Modern Web UI logo">
+      </p>
+    </div>
+  </div>
+  {{!-- end mwui logo --}}
+
+  {{!-- videos --}}
+  <div class="row">
+    <div class="col s12">
+      <h5>Featured Videos</h5>
+    </div>
+    <div class="row">
+      {{#each videos as |video|}}
+        {{featured-video video=video}}
+      {{/each}}
+    </div>
+  </div>
+  {{!-- end videos --}}
+
+  {{!-- featured speakers section --}}
+  <div class="row">
+    <div class="col s12">
+      <h5>Featured Speakers</h5>
+    </div>
+    <div class="col s12">
+      {{#each speakers as |speaker|}}
+        {{speaker-profile-card speaker=speaker}}
+      {{/each}}
+    </div>
+  </div>
+  {{!-- end featured speakers section --}}
 
 </div>
