@@ -6,13 +6,13 @@ export default [{
 },
 {
 	cardTitle: 'Ariya Hidayat',
-	title: 'Creator PhantomJS, Esprima, VP of Engineering at Shape Security',
+	title: 'Creator PhantomJS, Esprima',
 	image: 'img/speakers/ariya-hidayat.jpg',
 	current: true
 },
 {
 	cardTitle: 'Stefan Penner',
-	title: 'EmberJS Core Team, Ember-CLI, TC39, Hacker @Yahoo',
+	title: 'EmberJS Core Team, Hacker @Yahoo',
 	image: 'img/speakers/stefan-penner.jpeg',
 	current: true
 },
@@ -42,13 +42,13 @@ export default [{
 },
 {
 	cardTitle: 'Jim Sproch',
-	title: 'ReactJS Core Team, Engineer at Facebook',
+	title: 'ReactJS Core Team',
 	image: 'img/speakers/jim-sproch.jpg',
 	current: true
 },
 {
 	cardTitle: 'Jarrod Overson',
-	title: 'Co-Author of Developing Web Components, Creator Plato, RCL, Preprocess, Engineer at Shape Security',
+	title: 'Co-Author of Developing Web Components',
 	image: 'img/speakers/jarrod-overson.jpg',
 	current: true
 },
