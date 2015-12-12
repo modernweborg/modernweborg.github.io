@@ -1,5 +1,4 @@
 <div class="container">
-
   {{!-- mwui logo --}}
   <div class="row">
     <div class="col s12">
@@ -9,31 +8,34 @@
     </div>
   </div>
   {{!-- end mwui logo --}}
-
-  {{!-- videos --}}
-  <div class="row">
-    <div class="col s12">
-      <h5>Featured Videos</h5>
-    </div>
+  <div class="padding-bottom-30">
+    <h5 class="text-center">Exploring next generation standards, frameworks, tools, and techniques.</h5>
+    <h5 class="text-center">Sign up for our Silicon Valley events on <a href="http://meetup.com/modernwebui">Meetup</a>.</h5>
+  </div>
+</div>
+{{!-- videos --}}
+<div class="container-fluid lime lighten-3">
+  <div class="container">
+    <h5 class="margin-top-30">Featured Videos</h5>
+  </div>
+  <div class="container">
     <div class="row">
       {{#each videos as |video|}}
-        {{featured-video video=video}}
+      {{featured-video video=video}}
       {{/each}}
     </div>
-  </div>
-  {{!-- end videos --}}
-
-  {{!-- featured speakers section --}}
-  <div class="row">
-    <div class="col s12">
-      <h5>Featured Speakers</h5>
-    </div>
-    <div class="col s12">
-      {{#each speakers as |speaker|}}
+    {{!-- end videos --}}
+    {{!-- featured speakers section --}}
+    <div class="row">
+      <div class="col s12">
+        <h5>Featured Speakers</h5>
+      </div>
+      <div class="col s12">
+        {{#each speakers as |speaker|}}
         {{speaker-profile-card speaker=speaker}}
-      {{/each}}
+        {{/each}}
+      </div>
     </div>
+    {{!-- end featured speakers section --}}
   </div>
-  {{!-- end featured speakers section --}}
-
 </div>
