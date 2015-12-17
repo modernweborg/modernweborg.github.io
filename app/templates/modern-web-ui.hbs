@@ -16,12 +16,12 @@
 {{!-- videos --}}
 <div class="container-fluid lime lighten-3">
   <div class="container">
-    <h5 class="margin-top-30">Featured Videos</h5>
+    <h5 class="padding-top-30">Featured Videos</h5>
   </div>
   <div class="container">
     <div class="row">
       {{#each videos as |video|}}
-      {{featured-video video=video}}
+        {{featured-video video=video}}
       {{/each}}
     </div>
     {{!-- end videos --}}
@@ -32,7 +32,7 @@
       </div>
       <div class="col s12">
         {{#each speakers as |speaker|}}
-        {{speaker-profile-card speaker=speaker}}
+          {{speaker-profile-card speaker=speaker}}
         {{/each}}
       </div>
     </div>
