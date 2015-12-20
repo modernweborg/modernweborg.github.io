@@ -1,6 +1,6 @@
 # Modernweb
 
-[![Build Status](https://travis-ci.org/ladyleet/modernweb.svg)](https://travis-ci.org/ladyleet/modernweb)
+[![Build Status](https://travis-ci.org/modernweborg/modernweborg.svg)](https://travis-ci.org/modernweborg/modernweborg)
 
 This README outlines the details of collaborating on this Ember application.
 A short introduction of this app could easily go here.
