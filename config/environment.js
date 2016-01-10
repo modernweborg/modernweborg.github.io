@@ -7,6 +7,7 @@ module.exports = function(environment) {
     contentSecurityPolicy: { 'connect-src': "'self' https://auth.firebase.com wss://*.firebaseio.com" },
     firebase: 'https://modern-web-site.firebaseio.com/',
     baseURL: '/',
+    locationType: 'hash',
     EmberENV: {
       FEATURES: {
         // Here you can enable experimental features on an ember canary build
@@ -45,7 +46,6 @@ module.exports = function(environment) {
 
   if (environment === 'production') {
     ENV.baseURL = '/';
-    ENV.locationType = 'none';
   }
 
   return ENV;
