@@ -12,13 +12,13 @@ export default [{
 },
 {
 	cardTitle: 'Stefan Penner',
-	title: 'EmberJS Core Team, Hacker @Yahoo',
+	title: 'Ember Core Team, Hacker @Yahoo',
 	image: 'img/speakers/stefan-penner.jpeg',
 	current: true
 },
 {
 	cardTitle: 'Jafar Husain',
-	title: 'Cross-Team Lead at Netflix and TC39 Member',
+	title: 'Cross-Team Lead at Netflix, TC39 Member',
 	image: 'img/speakers/jafar-husain.jpg',
 	current: true
 },
@@ -30,11 +30,15 @@ export default [{
 },
 {
 	cardTitle: 'Godfrey Chan',
-	title: 'Rails Core Team, EmberJS at Tilde',
+	title: 'Rails Core Team, Ember at Tilde',
 	image: 'img/speakers/godfrey-chan.jpg',
 	current: true
-},
-{
+},{
+	cardTitle: 'Yehuda Katz',
+	title: 'EmberJS Core Team',
+	image: 'img/speakers/yehuda-katz.jpg',
+	current: true
+},{
 	cardTitle: 'Nathan Hammond',
 	title: 'Principal Web Developer at LinkedIn',
 	image: 'img/speakers/nathan-hammond.jpg',
@@ -42,13 +46,13 @@ export default [{
 },
 {
 	cardTitle: 'Jim Sproch',
-	title: 'ReactJS Core Team',
+	title: 'React Core Team',
 	image: 'img/speakers/jim-sproch.jpg',
 	current: true
 },
 {
 	cardTitle: 'Jarrod Overson',
-	title: 'Co-Author of Developing Web Components',
+	title: 'Developing Web Components',
 	image: 'img/speakers/jarrod-overson.jpg',
 	current: true
 }];
