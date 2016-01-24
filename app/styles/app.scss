@@ -1,30 +1,34 @@
+@import 'components/color';
+@import 'components/variables';
 @import 'materialize';
 @import 'ember-cli-materialize';
 
 // sticky footer
-body {
-    display: flex;
-    min-height: 100vh;
-    flex-direction: column;
-  }
+body, html {
+	background-color: #eceff1;
+}
 
-  main {
-    flex: 1 0 auto;
-  }
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+main {
+  flex: 1 0 auto;
+}
 // end sticky footer
 
 // footer styling
 .cari-footer-size {
 	height: 2em;
 }
+
 .giga-footer-size {
 	height: 6em;
 }
 // end footer styling
 
-body, html {
-	background-color: #eceff1;
-}
 .text-center {
 	text-align: center;
 }
@@ -75,6 +79,10 @@ body, html {
 	margin-bottom: 30px;
 }
 
+.padding-top-45 {
+  padding-top: 45px;
+}
+
 .padding-top-30 {
   padding-top: 30px;
 }
@@ -93,4 +101,28 @@ body, html {
 
 .top-15 {
 	top: 15px;
+}
+
+.line-height-100 {
+  line-height: 100px;
+}
+
+.height-100 {
+  height: 100px;
+}
+
+.debug {
+  outline: 1px solid black;
+}
+
+.video {
+  position: relative;
+  height: 360px;
+  width: 100%;
+}
+
+.video-static {
+  width: 100%;
+  height: auto;
+  max-height: 360px
 }
