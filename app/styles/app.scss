@@ -1,6 +1,30 @@
 @import 'materialize';
 @import 'ember-cli-materialize';
 
+// sticky footer
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+
+  main {
+    flex: 1 0 auto;
+  }
+// end sticky footer
+
+// footer styling
+.cari-footer-size {
+	height: 2em;
+}
+.giga-footer-size {
+	height: 6em;
+}
+// end footer styling
+
+body, html {
+	background-color: #eceff1;
+}
 .text-center {
 	text-align: center;
 }
@@ -47,10 +71,26 @@
   margin-top: 30px;
 }
 
+.margin-bottom-30 {
+	margin-bottom: 30px;
+}
+
 .padding-top-30 {
   padding-top: 30px;
 }
 
 .padding-bottom-30 {
   padding-bottom: 30px;
+}
+
+.position-relative {
+	position: relative;
+}
+
+.position-absolute {
+	position: absolute;
+}
+
+.top-15 {
+	top: 15px;
 }

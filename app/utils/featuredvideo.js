@@ -22,38 +22,20 @@ export default [{
 	videoTitle: 'Reactive Programming with RxJS',
 	presenters: 'Ben Lesh',
 	videoURL: 'https://www.youtube.com/embed/yk_6eU3Hcwo?rel=0',
-	keyTopics: 'Reactive Programming, RxJS'	
-	},{
-	videoTitle: 'Async & Await in ES7',
-	presenters: 'Mike North',
-	videoURL: 'https://www.youtube.com/embed/8GLu_NO0XLY?rel=0',
-	keyTopics: 'Async & Await, ES7'	
+	keyTopics: 'Reactive Programming, RxJS'
 	},{
 	videoTitle: 'Functional Programming: Sequence without Loops',
 	presenters: 'Ariya Hidayat',
 	videoURL: 'https://www.youtube.com/embed/S8Pb5tphPoE?rel=0',
-	keyTopics: 'Functional Programming'	
+	keyTopics: 'Functional Programming'
 	},{
 	videoTitle: 'The Coveted Universal Web Component',
 	presenters: 'Jay Phelps',
 	videoURL: 'https://www.youtube.com/embed/sNeK4Kplo9g?rel=0',
-	keyTopics: 'Web Components, Graffiti'	
+	keyTopics: 'Web Components, Graffiti'
 	},{
 	videoTitle: 'EmberJS Components: Past, Present, and Future',
 	presenters: 'Stefan Penner',
 	videoURL: 'https://www.youtube.com/embed/qxzMOIT-uNU?rel=0',
-	keyTopics: 'EmberJS, Components'	
-	},{
-	videoTitle: 'The Road to Native Web Components',
-	presenters: 'Mike North',
-	videoURL: 'https://www.youtube.com/embed/7CmLV4NkbYE?rel=0',
-	keyTopics: 'Web Components'	
+	keyTopics: 'EmberJS, Components'
 	}];
-
-
-
-
-
-
-
-

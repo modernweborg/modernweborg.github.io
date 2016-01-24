@@ -51,22 +51,4 @@ export default [{
 	title: 'Co-Author of Developing Web Components',
 	image: 'img/speakers/jarrod-overson.jpg',
 	current: true
-},
-{
-	cardTitle: 'Mike North',
-	title: 'CTO of Levanto Financial',
-	image: 'img/speakers/mike-north.jpg',
-	current: true
 }];
-
-
-
-
-
-
-
-
-
-
-
-
