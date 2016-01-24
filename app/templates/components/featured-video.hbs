@@ -1,14 +1,16 @@
-<div class="col s6 m6 13">
+<div class="col s12 m12 l6 13">
   <div class="card">
     <div class="card-content black-text">
       <span class="card-title small">{{video.videoTitle}}</span>
-      {{#if imageShowing}}
-        <a href="#" {{action (action (mut imageShowing) false)}}>
-          <img src={{video.imageURL}} alt={{video.videoTitle}} class="video-static">
-        </a>
-      {{else}}
-        <iframe class="video" src="{{video.videoURL}}&autoplay=1" frameborder="0" allowfullscreen></iframe>
-      {{/if}}
+      <div class="video-container">
+        <img src={{video.imageURL}} {{action (action (mut imageShowing) false) on="click"}} alt={{video.videoTitle}} class="video static {{unless imageShowing 'background'}}">
+        <div class="video {{if imageShowing 'background'}}">
+          {{#unless imageShowing}}
+            <iframe class="video" src="{{video.videoURL}}&autoplay=1" frameborder="0" allowfullscreen></iframe>
+          {{/unless}}
+        </div>
+      </div>
+
       <span class="card-footer small">{{video.presenters}}</span>
     </div>
   </div>

@@ -115,14 +115,28 @@ main {
   outline: 1px solid black;
 }
 
-.video {
+.video-container {
   position: relative;
-  height: 360px;
+  overflow: hidden;
+  height: 100%;
   width: 100%;
-}
 
-.video-static {
-  width: 100%;
-  height: auto;
-  max-height: 360px
+  .video {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: 900;
+  }
+
+  .background {
+    z-index: 800;
+  }
+
+  .static {
+    max-width:100%; 
+    max-height:100%;
+    margin:auto;
+    display:block;
+    cursor: pointer;
+  }
 }
