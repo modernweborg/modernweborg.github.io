@@ -2,26 +2,15 @@
   <div class="card">
     <div class="card-content black-text">
       <span class="card-title small">{{video.videoTitle}}</span>
-      <iframe style="position: relative; height: 360px; width: 100%;" src="{{video.videoURL}}" frameborder="0" allowfullscreen></iframe>
+      {{#if imageShowing}}
+        <a href="#" {{action (action (mut imageShowing) false)}}>
+          <img src={{video.imageURL}} alt={{video.videoTitle}} class="video-static">
+        </a>
+      {{else}}
+        <iframe class="video" src="{{video.videoURL}}&autoplay=1" frameborder="0" allowfullscreen></iframe>
+      {{/if}}
       <span class="card-footer small">{{video.presenters}}</span>
     </div>
   </div>
 </div>
 
-{{!-- {{#md-card title="Card Title"
-    titleClass="orange-text"
-    image="images/ember-9a2571346ddbec766fbe11304e74e784.png"
-    id="image-card"}}
-
-    {{#md-card-content}}
-        I am a very simple card. I am good at containing
-        small bits of information. I am convenient because
-        I require little markup to use effectively.
-    {{/md-card-content}}
-
-    {{#md-card-action}}
-        {{#link-to "cards"}}Link 1{{/link-to}}
-        {{#link-to "cards"}}Link 2{{/link-to}}
-    {{/md-card-action}}
-
-{{/md-card}} --}}
