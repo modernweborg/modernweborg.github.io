@@ -3,6 +3,24 @@
 @import 'materialize';
 @import 'ember-cli-materialize';
 
+// logo styling
+
+$logo_size: 80px;
+
+.logo-styling {
+  height: $logo_size;
+  width: $logo_size;
+  border-radius: $logo_size/2;
+  margin: 10px;
+}
+
+$sponsor_logo: 400px;
+.sponsor-logo img {
+	width: $sponsor_logo;
+}
+
+// end logo styling
+
 // sticky footer
 body, html {
 	background-color: #eceff1;

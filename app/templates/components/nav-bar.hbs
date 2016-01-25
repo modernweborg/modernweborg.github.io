@@ -1,6 +1,10 @@
 <div class="nav-wrapper">
   <div class="container">
-    <a href="#!" class="brand-logo">Modern Web</a>
+
+		{{#link-to 'index' class="brand-logo"}}
+        <img src="img/m-w-80.jpg" class="logo-styling z-depth-2" alt="Modern Web Logo">
+    {{/link-to}}
+
     <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
     <ul class="right hide-on-med-and-down">
       {{nav-item location="modern-web-podcast" displayName="Podcast"}}
