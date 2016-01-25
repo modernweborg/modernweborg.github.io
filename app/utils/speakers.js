@@ -33,12 +33,14 @@ export default [{
 	title: 'Rails Core Team, Ember at Tilde',
 	image: 'img/speakers/godfrey-chan.jpg',
 	current: true
-},{
+},
+{
 	cardTitle: 'Yehuda Katz',
 	title: 'EmberJS Core Team',
 	image: 'img/speakers/yehuda-katz.jpg',
 	current: true
-},{
+},
+{
 	cardTitle: 'Nathan Hammond',
 	title: 'Principal Web Developer at LinkedIn',
 	image: 'img/speakers/nathan-hammond.jpg',
