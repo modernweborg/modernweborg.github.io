@@ -4,4 +4,3 @@ export default Mirage.Factory.extend({
   name: null,
   description: null
 });
-

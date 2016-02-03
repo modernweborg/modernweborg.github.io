@@ -1,0 +1,6 @@
+
+<div>
+  {{#each model as |game|}}
+  <h1>{{#link-to 'game' game}} {{game.name}} {{/link-to}}</h1>
+  {{/each}}
+</div>

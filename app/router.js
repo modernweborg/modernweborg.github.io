@@ -17,6 +17,8 @@ Router.map(function() {
   });
   this.route('about');
   this.route('signup');
+  this.route('games');
+  this.route('game', { path: '/games/:game_id' });
 });
 
 export default Router;

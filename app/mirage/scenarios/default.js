@@ -2,16 +2,22 @@ export default function(server) {
 
   // ------------  GROUPS  -------------
 
-  let ember = server.create('group', {
+  let ember = server.create('game', {
     id:          'ember',
     name:        'Global Ember Meetup',
-    description: ''
+    description: 'this is a description for global ember meetup'
   });
 
-  let angular = server.create('group', {
+  let angular = server.create('game', {
     id:          'angular',
-    name:        'Angular.js Meetup',
-    description: ''
+    name:        'Angular2 Trivia',
+    description: 'this is a description for angular'
+  });
+
+  let rxjs = server.create('game', {
+    id:          'rxjs',
+    name:        'RxJS',
+    description: 'this is a description for RxJS'
   });
 
   // -----------  MEETUPS  -------------
@@ -21,7 +27,15 @@ export default function(server) {
   server.create('question', {
     question:  'Why is the sky blue?',
     answer:    'Just because..',
-    meetup_id: ember.id
+    game_id: ember.id
+  });
+
+  // RxJS Ember Meetup Questions
+
+  server.create('question', {
+    question:  'Why is the sky blue?',
+    answer:    'Just because..',
+    game_id: ember.id
   });
 
   // Angular Questions
@@ -29,6 +43,14 @@ export default function(server) {
   server.create('question', {
     question:  'What is your favorite color',
     answer:    'green',
-    meetup_id: angular.id
+    game_id: angular.id
+  });
+
+  // RxJS Questions
+
+  server.create('question', {
+    question:  'What is your favorite color',
+    answer:    'green',
+    game_id: rxjs.id
   });
 }
