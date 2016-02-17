@@ -2,5 +2,5 @@ import Ember from 'ember';
 
 export default Ember.Component.extend({
   tagName: 'footer',
-  classNames: ['page-footer', 'cyan', 'darken-2']
+  classNames: ['page-footer', 'cyan', 'darken-1']
 });

@@ -4,19 +4,19 @@
 
   <div class="row padding-top-30">
     <div class="col s12">
-      <h1 class="center-align">MODERN WEB TRAINING</h1>
+      <h1 class="center-align">Modern Web Training</h1>
     </div>
   </div>
   <div class="row">
     <div class="col s12">
 
-    <div class="card-panel hoverable cyan lighten-5 black-text z-depth-1 center-align">
+    <div class="card-panel cyan lighten-5 black-text z-depth-1">
       <div class="row">
       <div class="col s12 m12 l8">
         <p class="font-size-2em">
           Best in industry training for beginner, intermediate, and advanced level developers.
         </p>
-        <p class="font-size-15em padding-top-45">
+        <p class="font-size-15em padding-top-45 right-align">
           Courses on <a href="http://emberjs.com/">EmberJS</a>, <a href="https://angular.io/">Angular 2</a>, <a href="https://facebook.github.io/react/">ReactJS</a>, <a href="https://www.polymer-project.org/1.0/">Polymer</a>, <a href="http://www.ecma-international.org/ecma-262/6.0/">ES6/ES2015</a>, <a href="http://www.phoenixframework.org/">Phoenix</a>/<a href="http://elixir-lang.org/">Elixir</a>,
           <a href="https://aws.amazon.com/">Amazon AWS</a>, <a href="https://hub.docker.com/enterprise/trial/?gclid=COjfjZes58oCFdgQgQodY4UDrA">Docker</a>, Web Components, Test Driven Development and more.
         </p>
@@ -33,56 +33,219 @@
 	<!-- end title -->
 
   <div class="row">
-    <div class="col s9 m9 l9">
-      <h3 class="center-align">CURRENT COURSES</h3>
+    <div class="col s12">
+      <h2 class="center-align">Current Courses</h2>
     </div>
   </div>
-
+{{!-- begin featured course --}}
   <div class="row">
-    <div class="col s9 m9 l9 padding-top-30">
-      <div class="card-panel hoverable cyan lighten-5 black-text z-depth-1 center-align">
-        <h4>EMBERJS: FAST TRACK &amp; EXPANSION TRACK</h4>
-        <p>
-          <img class="responsive-img" src="img/modern-web-cari-sign-ember-lg.png" alt="Cari EmberJS" />
-        </p>
-        <p class="font-size-2em">
-          Instructors: Chase &amp; Jonathan of <a href="http://emberweekend.com">Ember Weekend</a>.
-        </p>
-        <p class="font-size-15em">
-          May 24, 2016 - Silicon Valley
-        </p>
+    <div class="col s12 padding-top-30">
+      <div class="card-panel cyan lighten-5 z-depth-1 center-align">
+        <div class="row">
+          <div class="col s12">
+            <h3>EMBERJS: FAST TRACK &amp; EXPANSION TRACK</h3>
+            <p class="padding-top-30">
+              <img class="responsive-img" src="img/modern-web-cari-sign-ember-lg.png" alt="Cari EmberJS" />
+            </p>
+            <p class="font-size-2em">
+              Instructors: Chase &amp; Jonathan of <a href="http://emberweekend.com">Ember Weekend</a>.
+            </p>
+            <p>
+              {{link-to 'Register Now' 'trainings' (query-params anchor='register') class='waves-effect waves-light btn-large red'}}
+            </p>
+            <p class="font-size-2em">
+              May 23 - 24, 2016 - Silicon Valley
+            </p>
+          </div>
+        </div>
+        <div class="row font-size-15em center-align">
+          <div class="col s3">
+            {{link-to 'Instructors' 'trainings' (query-params anchor='instructors')}}
+          </div>
+          <div class="col s3">
+            {{link-to "What You'll Learn" 'trainings' (query-params anchor='learn') }}
+          </div>
+          <div class="col s3">
+            {{link-to 'Schedule' 'trainings' (query-params anchor='schedule') }}
+          </div>
+          <div class="col s3">
+            {{link-to 'Register' 'trainings' (query-params anchor='register') }}
+          </div>
+        </div>
       </div>
     </div>
-  <!-- end featured course -->
-  {{!-- TOC --}}
-    <div class="col s3 m3 l3">
-      <ul class="section table-of-contents font-size-15em">
-        <li>{{link-to "What You'll Learn" 'trainings' (query-params anchor='learn') }}</li>
-        <li>{{link-to 'Instructors' 'trainings' (query-params anchor='instructors') }}</li>
-        <li>{{link-to 'Schedule' 'trainings' (query-params anchor='schedule') }}</li>
-        <li>{{link-to 'Register' 'trainings' (query-params anchor='register') }}</li>
-      </ul>
-    </div>
-  {{!-- TOC --}}
+
   </div>
+{{!-- end featured course --}}
 
   <div class="row">
     <div class="col s12">
-      <h5 data-anchor='learn'>What You'll Learn</h5>
-      <div class="font-size-2em">
-        <p>
-          Day 1 is a perfect introduction to Ember for beginners and a solid refresher course for intermediate developers. Explore the <a href="https://www.emberaddons.com/">add-on ecosystem</a>, <a href="https://guides.emberjs.com/v2.3.0/components/defining-a-component/">components</a>, <a href="http://ember-cli.com/">Ember-CLI</a>, <a href="http://emberobserver.com/categories/authentication">authentication</a>, <a href="https://guides.emberjs.com/v2.3.0/templates/writing-helpers/">helpers</a> and <a href="https://guides.emberjs.com/v2.3.0/applications/services/">services</a>.
-        </p>
-        <p>
-          Day 2 is a follow-on day from Day 1 and also great for intermediate to experienced developers. We will cover <a href="https://guides.emberjs.com/v2.3.0/testing/">advanced testing techniques</a>, <a href="http://emberobserver.com/categories/authentication">authentication</a>, <a href="http://www.ember-cli-mirage.com/">ember-cli-mirage</a> (mocking and live JSON APIs), <a href="http://emberjs.com/api/data/">Ember Data</a> (creating and persisting a model), <a href="http://ember-cli.com/ember-cli-deploy/">deployment</a>, and sockets.
-        </p>
-      </div>
-      <h5 data-anchor='instructors'>Instructors</h5>
-      <h5 data-anchor='schedule'>Schedule</h5>
-      <h5 data-anchor='register'>Register</h5>
-      <div style="width:100%; text-align:left;" ><iframe  src="//eventbrite.com/tickets-external?eid=21688386548&ref=etckt" frameborder="0" height="306" width="100%" vspace="0" hspace="0" marginheight="5" marginwidth="5" scrolling="auto" allowtransparency="true"></iframe><div style="font-family:Helvetica, Arial; font-size:10px; padding:5px 0 5px; margin:2px; width:100%; text-align:left;" ><a class="powered-by-eb" style="color: #dddddd; text-decoration: none;" target="_blank" href="http://www.eventbrite.com/r/etckt">Powered by Eventbrite</a></div></div>
+      {{#md-card-panel class="cyan lighten-5"}}
+        <div class="row">
+          <div class="col s12">
+                <h3 data-anchor='instructors'>YOUR INSTRUCTORS</h3>
+          </div>
+        </div>
+        <div class="row margin-top-30">
+          <div class="col s12 m4 l3">
+              <img class="responsive-img circle" src="/img/instructors/chase-mccarthy.jpg" alt="Chase McCarthy Headshot">
+          </div>
+          <div class="col s12 m8 l9 font-size-15em">
+            <h4>Chase McCarthy - Ember Weekend Co-Host &amp; Senior Developer, HashRocket</h4>
+            <p>
+              Lorem Ipsum Chase Is A Monkey Lorem Ipsum Chase Is A Monkey Lorem Ipsum Chase Is A Monkey Lorem Ipsum Chase Is A Monkey Lorem Ipsum Chase Is A Monkey Lorem Ipsum Chase Is A Monkey Lorem Ipsum Chase Is A Monkey Lorem Ipsum Chase Is A Monkey Lorem Ipsum Chase Is A Monkey Lorem Ipsum Chase Is A Monkey Lorem Ipsum Chase Is A Monkey Lorem Ipsum Chase Is A Monkey Lorem Ipsum Chase Is A Monkey Lorem Ipsum Chase Is A Monkey Lorem Ipsum
+            </p>
+          </div>
+        </div>
+        <div class="row margin-top-30">
+          <div class="col s12 m4 l3">
+              <img class="responsive-img circle" src="/img/instructors/jonathan-jackson.png" alt="Jonathan Jackson Headshot">
+          </div>
+          <div class="col s12 m8 l9 font-size-15em">
+            <h4>Jonathan Jackson - Ember Weekend Co-Host &amp; Senior Developer, HashRocket</h4>
+            <p>
+              Lorem Ipsum Chase Is A Monkey Lorem Ipsum Chase Is A Monkey Lorem Ipsum Chase Is A Monkey Lorem Ipsum Chase Is A Monkey Lorem Ipsum Chase Is A Monkey Lorem Ipsum Chase Is A Monkey Lorem Ipsum Chase Is A Monkey Lorem Ipsum Chase Is A Monkey Lorem Ipsum Chase Is A Monkey Lorem Ipsum Chase Is A Monkey Lorem Ipsum Chase Is A Monkey Lorem Ipsum Chase Is A Monkey Lorem Ipsum Chase Is A Monkey Lorem Ipsum Chase Is A Monkey Lorem Ipsum
+            </p>
+          </div>
+        </div>
+      {{/md-card-panel}}
     </div>
   </div>
+
+<div class="row">
+  <div class="col s12">
+  {{#md-card-panel class="cyan lighten-5"}}
+    <div class="row">
+      <div class="col s12">
+            <h3 data-anchor='learn'>WHAT YOU'LL LEARN</h3>
+      </div>
+    </div>
+    <div class="row margin-top-30 font-size-2em">
+      <div class="col s12">
+        <h4>Summary</h4>
+        <p>
+          This training is designed to quickly level up your Ember skills.  It is a fast paced curriculum focused on building a solid foundation in Ember, and quickly diving into more advanced techniques.
+        </p>
+        <p>
+          From TDD to Engines, we'll cover many advanced techniques with a practical spin.  The goal throughout is to help get you to the point where you can start solving real business problems with Ember.
+        </p>
+      </div>
+    </div>
+  {{/md-card-panel}}
+  </div>
+</div>
+
+<div class="row">
+  <div class="col s12">
+  {{#md-card-panel class="cyan lighten-5"}}
+    <div class="row">
+      <div class="col s12">
+            <h3 data-anchor='schedule'>SCHEDULE</h3>
+      </div>
+    </div>
+    <div class="row margin-top-30">
+    </div>
+  {{/md-card-panel}}
+  </div>
+</div>
+
+<div class="row">
+  <div class="col s12">
+  {{#md-card-panel class="cyan lighten-5"}}
+    <div class="row">
+      <div class="col s12">
+            <h3 data-anchor='register'>REGISTER TODAY</h3>
+      </div>
+    </div>
+    <div class="row margin-top-30">
+    </div>
+  {{/md-card-panel}}
+  </div>
+</div>
+
+<div class="row">
+  <div class="col s12">
+  {{#md-card-panel class="cyan lighten-5"}}
+    <div class="row">
+      <div class="col s12">
+            <h3>PREREQUISITES</h3>
+      </div>
+    </div>
+    <div class="row margin-top-30 font-size-2em">
+      <div class="col s12">
+        <h4 class="center-align">Recommended Skills</h4>
+        <p>
+          This is a fast paced training that will cover a wide range of web technologies. As such it is highly recommended that you are comfortable with the following subjects:
+        </p>
+        <p>
+          <ul>
+            <li>* JavaScript</li>
+            <li>* jQuery</li>
+            <li>* HTTP</li>
+            <li>* AJAX</li>
+            <li>* HTML/CSS</li>
+          </ul>
+        </p>
+        <p>
+          No previous Ember.js experience is required for training on day one. Day two will require that you be familiar with all of the subjects listed under day one.
+        </p>
+      </div>
+      <div class="col s12">
+        <h4 class="center-align">Hardware</h4>
+        <p>
+          <strong>Recommended</strong>
+        </p>
+        <p>
+          * Macbook Pro with OS X 10.10.x (Yosemite) or newer
+        </p>
+        <p>
+          <strong>Minimum</strong>
+        </p>
+        <p>
+          * Macbook Air and OS X 10.7 (Lion)
+        </p>
+        <p>
+          * Ubuntu laptop if that's your preference
+        </p>
+        <p>
+          * Note: Windows laptops are not recommended. Node and Ember CLI support for Windows is suboptimal and will not provide the best training experience.
+        </p>
+      </div>
+      <div class="col s12">
+        <h4 class="center-align">Software</h4>
+        <p>
+          <ul>
+            <li>* Node 0.12.x or newer</li>
+            <li>* Ember CLI 2.3.0 (or latest stable release)</li>
+          </ul>
+        </p>
+        <p>
+          Make sure you can successfully `ember new project-name` and `ember serve` that project before the first day training. This will help us move quickly into training so we can cover as much as possible.
+        </p>
+      </div>
+      <div class="col s12">
+        <h4 class="center-align">Other Things</h4>
+        <p>
+          It would also be helpful (though not required) to set up an account on the [Ember Community Slack](https://embercommunity.slack.com).
+        </p>
+        <p>
+          If you run into any issues getting your Ember environment setup, please ask for help in the [#needhelp](https://embercommunity.slack.com/messages/needhelp/) channel or feel free to contact us directly through:
+        </p>
+        <p>
+          **Twitter** [@code0100fun](https://twitter.com/code0100fun) and [@rondale-sc](https://twitter.com/rondale-sc)
+        </p>
+        <p>
+          **Slack** [code0100fun](https://embercommunity.slack.com/messages/@rondale_sc/) and [rondale-sc](https://embercommunity.slack.com/messages/@code0100fun/)
+        </p>
+        <p>
+          **Email** [chase@hashrocket.com](mailto:chase@hashrocket.com) and [jonathan.jackson@hashrocket.com](mailto:jon@hashrocket.com)
+        </p>
+      </div>
+    </div>
+  {{/md-card-panel}}
+  </div>
+</div>
+
 <div class="row">
   <div class="col s12">
     <p class="font-size-2em">
