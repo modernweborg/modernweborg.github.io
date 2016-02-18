@@ -1,4 +1,22 @@
 export default [{
+    videoTitle: 'BabelJS',
+    presenters: 'James Kyle',
+    videoURL:   'https://www.youtube.com/embed/m-HjKwyQoQg?rel=0',
+    imageURL:   'http://img.youtube.com/vi/m-HjKwyQoQg/hqdefault.jpg',
+    keyTopics:  'BabelJS, Compilers, ES2015'
+	},{
+    videoTitle: 'ES2015 & Beyond',
+    presenters: 'Jay Phelps',
+    videoURL:   'https://www.youtube.com/embed/6P7hwhvlwig?rel=0',
+    imageURL:   'http://img.youtube.com/vi/6P7hwhvlwig/hqdefault.jpg',
+    keyTopics:  'ES2015'
+	},{
+    videoTitle: 'Angular 2 & Firebase',
+    presenters: 'Jeff Cross',
+    videoURL:   'https://www.youtube.com/embed/ivti_bVkgwg?rel=0',
+    imageURL:   'http://img.youtube.com/vi/ivti_bVkgwg/hqdefault.jpg',
+    keyTopics:  'Angular 2, Firebase'
+	},{
     videoTitle: 'BroccoliJS, HTMLBars, and Glimmer 2',
     presenters: 'Stefan Penner, Godfrey Chan, Yehuda Katz',
     videoURL:   'https://www.youtube.com/embed/h-dy5tHm2TA?rel=0',
