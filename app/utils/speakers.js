@@ -1,4 +1,16 @@
 export default [{
+	cardTitle: 'Jeff Cross',
+	title: 'Angular Core Team',
+	image: 'img/speakers/jeff-cross.jpg',
+	current: true
+},
+{
+	cardTitle: 'James Kyle',
+	title: 'BabelJS Core Team',
+	image: 'img/speakers/james-kyle.jpg',
+	current: true
+},
+{
 	cardTitle: 'Ben Lesh',
 	title: 'Senior UI Engineer at Netflix',
 	image: 'img/speakers/ben-lesh.jpg',
