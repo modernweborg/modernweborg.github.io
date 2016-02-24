@@ -57,16 +57,16 @@
           </div>
         </div>
         <div class="row font-size-15em center-align">
-          <div class="col s3">
+          <div class="col s12 m6 l3">
             {{link-to 'Instructors' 'trainings' (query-params anchor='instructors')}}
           </div>
-          <div class="col s3">
+          <div class="col s12 m6 l3">
             {{link-to "What You'll Learn" 'trainings' (query-params anchor='learn') }}
           </div>
-          <div class="col s3">
+          <div class="col s12 m6 l3">
             {{link-to 'Schedule' 'trainings' (query-params anchor='schedule') }}
           </div>
-          <div class="col s3">
+          <div class="col s12 m6 l3">
             {{link-to 'Register' 'trainings' (query-params anchor='register') }}
           </div>
         </div>
@@ -90,9 +90,15 @@
           </div>
           <div class="col s12 m8 l9 font-size-15em">
             <h4>Chase McCarthy - Ember Weekend Co-Host &amp; Senior Developer, Hashrocket</h4>
-            {{!-- <p>
-              Lorem Ipsum Chase Is A Monkey Lorem Ipsum Chase Is A Monkey Lorem Ipsum Chase Is A Monkey Lorem Ipsum Chase Is A Monkey Lorem Ipsum Chase Is A Monkey Lorem Ipsum Chase Is A Monkey Lorem Ipsum Chase Is A Monkey Lorem Ipsum Chase Is A Monkey Lorem Ipsum Chase Is A Monkey Lorem Ipsum Chase Is A Monkey Lorem Ipsum Chase Is A Monkey Lorem Ipsum Chase Is A Monkey Lorem Ipsum Chase Is A Monkey Lorem Ipsum Chase Is A Monkey Lorem Ipsum
-            </p> --}}
+            <p>
+              Chase is a consummate nerd. Interested and proficient in a wide range of technology from iOS to Ruby and back again.
+            </p>
+            <p>
+              He began his career in electronics but ended up pursuing a degree in Computer Science. When not learning the latest and greatest in Ember land you can find him buried in a book about machine learning, or possibly investigating flight control algorithms for his quadcopters.
+            </p>
+            <p>
+              Chase works as software developer at Hashrocket, a Ruby on Rails consultancy, where he helps to steer clients toward the best tools for the job. That turns out to be Ember.js more often than not. To help himself and others stay current with Ember and Javascript, Chase and Jonathan Jackson started the weekly podcast Ember Weekend.
+            </p>
           </div>
         </div>
         <div class="row margin-top-30">
@@ -101,9 +107,15 @@
           </div>
           <div class="col s12 m8 l9 font-size-15em">
             <h4>Jonathan Jackson - Ember Weekend Co-Host &amp; Senior Developer, Hashrocket</h4>
-            {{!-- <p>
-              Lorem Ipsum Chase Is A Monkey Lorem Ipsum Chase Is A Monkey Lorem Ipsum Chase Is A Monkey Lorem Ipsum Chase Is A Monkey Lorem Ipsum Chase Is A Monkey Lorem Ipsum Chase Is A Monkey Lorem Ipsum Chase Is A Monkey Lorem Ipsum Chase Is A Monkey Lorem Ipsum Chase Is A Monkey Lorem Ipsum Chase Is A Monkey Lorem Ipsum Chase Is A Monkey Lorem Ipsum Chase Is A Monkey Lorem Ipsum Chase Is A Monkey Lorem Ipsum Chase Is A Monkey Lorem Ipsum
-            </p> --}}
+            <p>
+              Jonathan is a seasoned veteran of the Ruby and Rails world, which taught Jonathan the value of convention and community.  Enter Ember, which shares much of the same philosophy.  Jonathan recognized the same energy from the Ruby / Rails community and dove in head first.
+            </p>
+            <p>
+              With commits on EmberCLI and even a few on Ember.js itself Jonathan found himself loving how much fun Ember could be.  Working at Hashrocket, a respected Ruby and Rails consultancy he was put into the enviable position of getting to work with Ember on a daily basis.
+            </p>
+            <p>
+              When not working professionally on Ember projects he and his friend Chase McCarthy would spend weekends working on Ember side projects to stay sharp.  Eventually they could no longer keep all the experience they were gaining to themselves and began the Ember Weekend podcast to share what they had learned.  When not Embering, scouring the interwebs for new programming patterns or writing his next blog post, you can find him spending time at the beach.
+            </p>
           </div>
         </div>
       {{/md-card-panel}}
@@ -173,17 +185,26 @@
         <strong><h4>Key Concepts</h4></strong>
         <p>
           <ul>
-            <li>* <a href="https://guides.emberjs.com/v2.3.0/tutorial/ember-cli/">Creating and running a project</a></li>
-            <li>* <a href="http://ember-cli.com/">Ember CLI</a></li>
-            <li>* <a href="https://guides.emberjs.com/v2.3.0/testing/">Testing</a></li>
-            <li>* <a href="http://emberjs.com/api/classes/RSVP.Promise.html">Promises</a></li>
-            <li>* <a href="https://guides.emberjs.com/v2.3.0/routing/">Routes</a></li>
-            <li>* <a href="https://guides.emberjs.com/v2.3.0/components/defining-a-component/">Components</a></li>
-            <li>* <a href="https://guides.emberjs.com/v2.3.0/templates/actions/">Actions</a></li>
-            <li>* <a href="http://emberobserver.com/categories/authentication">Authorization/Authentication</a></li>
-            <li>* <a href="https://guides.emberjs.com/v2.3.0/applications/services/">Services</a></li>
-            <li>* <a href="https://www.emberaddons.com/">Add-ons</a></li>
-            <li>* <a href="https://guides.emberjs.com/v2.3.0/templates/writing-helpers/">Helpers</a></li>
+            <strong><li>Creating a new project</li></strong>
+            <li>* Use <a href="http://ember-cli.com/">Ember CLI</a> to create a new project and go over the basic structure of an app.</li>
+            <strong><li>Running the server</li></strong>
+            <li>* Serve an ember app in development.</li>
+            <strong><li>Basic testing</li></strong>
+            <li>* Generate an acceptance test and run the <a href="https://guides.emberjs.com/v2.3.0/testing/">test suite</a>.</li>
+            <strong><li>Promises</li></strong>
+            <li>* Introduce how Ember deals with asynchronous behavior.</li>
+            <strong><li>Routes</li></strong>
+            <li>* Learn what gives structure to an Ember application.</li>
+            <strong><li>Components</li></strong>
+            <li>* Share reusable templates and behavior.</li>
+            <strong><li>Actions</li></strong>
+            <li>* Trigger changes based on user input.</li>
+            <strong><li>Services</li></strong>
+            <li>* Move persistent state out of short lived components.</li>
+            <strong><li>Add-ons</li></strong>
+            <li>* Utilize community driven and proven solutions.</li>
+            <strong><li>Helpers</li></strong>
+            <li>* Extract small pieces of reusable template code.</li>
           </ul>
         </p>
       </div>
@@ -209,20 +230,20 @@
             <li>* <a href="https://guides.emberjs.com/v2.3.0/testing/testing-components/">Integration tests</a> (components)</li>
             <li>* <a href="https://guides.emberjs.com/v2.3.0/testing/unit-testing-basics/">Unit tests</a> (helpers, routes, services)</li>
             <strong><li>Authentication using Torii and Ember-Simple-Auth</li></strong>
-            <li>* <a href="Account update">Account creation</a></li>
-            <li>* <a href="https://ember-simple-auth.com/">Account update</a></li>
-            <li>* <a href="https://vestorly.github.io/torii/">OAuth sign in</a></li>
+            <li>* Account creation</li>
+            <li>* Account update</li>
+            <li>* OAuth sign in</li>
             <strong><li>APIs and Ember-CLI-Mirage</li></strong>
             <li>* <a href="http://emberjs.com/api/data/classes/DS.JSONAPIAdapter.html">JSON API</a></li>
             <li>* <a href="http://www.ember-cli-mirage.com/">Mocking an API</a></li>
-            <li>* <a href="http://www.ember-cli-mirage.com/">Live JSON API</a></li>
+            <li>* Live JSON API</li>
             <strong><li>Ember Data</li></strong>
             <li>* <a href="https://guides.emberjs.com/v2.3.0/models/">Creating a model</a></li>
             <li>* <a href="https://guides.emberjs.com/v2.3.0/models/creating-updating-and-deleting-records/">Persisting a model</a></li>
             <strong><li>Deployment</li></strong>
-            <li>* General deployment / using <a href="http://ember-cli.com/ember-cli-deploy/">Ember-CLI-Deploy</a></li>
+            <li>* Deploy your Ember apps easily and confidently with <a href="http://ember-cli.com/ember-cli-deploy/">ember-cli-deploy</a>.</li>
             <strong><li>Sockets</li></strong>
-            <li>* <a href="https://guides.emberjs.com/v2.3.0/models/pushing-records-into-the-store/">Pushing data into the store</a></li>
+            <li>* Learn how to integrate real-time data into Ember Data with sockets.</li>
           </ul>
         </p>
       </div>
@@ -242,7 +263,7 @@
     <div class="row margin-top-30">
       <div class="col s12 m4 l4 center-align">
         <p class="font-size-2em">
-          <a href=" https://www.eventbrite.com/e/emberjs-fast-track-expansion-track-modern-web-training-with-ember-weekend-tickets-21688386548">{{md-btn text='Full Training' buttonType='large' class='waves-effect waves-light btn-large red'}}</a>
+          <a href=" https://www.eventbrite.com/e/emberjs-fast-track-expansion-track-modern-web-training-with-ember-weekend-tickets-21688386548">{{md-btn text='2 Day Training' buttonType='large' class='waves-effect waves-light btn-large red'}}</a>
         </p>
         <p class=font-size-15em>
           May 23-24, 2016, 9am-6pm
