@@ -13,10 +13,10 @@
     <div class="card-panel cyan lighten-5 black-text z-depth-1">
       <div class="row">
       <div class="col s12 m12 l8">
-        <h4>
+        <h5>
           Best in industry training for beginner, intermediate, and advanced level developers.
-        </h4>
-        <p class="font-size-2em padding-top-45">
+        </h5>
+        <p class="font-size-15em padding-top-45">
           Courses on <a href="http://emberjs.com/">EmberJS</a>, <a href="https://angular.io/">Angular 2</a>, <a href="https://facebook.github.io/react/">ReactJS</a>, <a href="https://www.polymer-project.org/1.0/">Polymer</a>, <a href="http://www.ecma-international.org/ecma-262/6.0/">ES6/ES2015</a>, <a href="http://www.phoenixframework.org/">Phoenix</a>/<a href="http://elixir-lang.org/">Elixir</a>,
           <a href="https://aws.amazon.com/">Amazon AWS</a>, <a href="https://hub.docker.com/enterprise/trial/?gclid=COjfjZes58oCFdgQgQodY4UDrA">Docker</a>, Web Components, Test Driven Development and more.
         </p>
@@ -48,10 +48,10 @@
             <p class="padding-top-30">
               <img class="responsive-img" src="img/modern-web-cari-sign-ember-lg.png" alt="Cari EmberJS" />
             </p>
-            <p class="font-size-2em">
+            <p class="font-size-15em">
               {{link-to 'Register Now' 'trainings' (query-params anchor='register') class='waves-effect waves-light btn-large red'}}
             </p>
-            <p class="font-size-2em">
+            <p class="font-size-15em">
               May 23 - 24, 2016 - Silicon Valley
             </p>
           </div>
@@ -76,6 +76,33 @@
   </div>
 {{!-- end featured course --}}
 
+<div class="row">
+  <div class="col s12">
+  {{#md-card-panel class="cyan lighten-5"}}
+    <div class="row">
+      <div class="col s12">
+            <h3 data-anchor='learn'>WHAT YOU'LL LEARN</h3>
+            <p class="center-align"><img class="responsive-img" src="img/modern-web-giga-cloud-ember-sm.png" alt="Giga Ember"></p>
+      </div>
+    </div>
+    <div class="row font-size-15em">
+      <div class="col s12">
+        <h4>Summary</h4>
+        <p>
+          This training is designed to quickly level up your Ember skills.  The fast paced curriculum will focus on building a solid foundation in Ember and dive into advanced Ember techniques.
+        </p>
+        <p>
+          From TDD to Engines, we'll teach you how to put a practical spin on many advanced techniques.
+        </p>
+        <p>
+          By the end of this course you should be able to start solving real business problems with Ember or have a better sense of maximizing your current use of Ember.
+        </p>
+      </div>
+    </div>
+  {{/md-card-panel}}
+  </div>
+</div>
+
   <div class="row">
     <div class="col s12">
       {{#md-card-panel class="cyan lighten-5"}}
@@ -88,7 +115,7 @@
           <div class="col s12 m4 l3">
               <img class="responsive-img circle" src="/img/instructors/chase-mccarthy.jpg" alt="Chase McCarthy Headshot">
           </div>
-          <div class="col s12 m8 l9 font-size-15em">
+          <div class="col s12 m8 l9">
             <h4>Chase McCarthy - Ember Weekend Co-Host &amp; Senior Developer, Hashrocket</h4>
             <p>
               Chase is a consummate nerd. Interested and proficient in a wide range of technology from iOS to Ruby and back again.
@@ -105,7 +132,7 @@
           <div class="col s12 m4 l3">
               <img class="responsive-img circle" src="/img/instructors/jonathan-jackson.png" alt="Jonathan Jackson Headshot">
           </div>
-          <div class="col s12 m8 l9 font-size-15em">
+          <div class="col s12 m8 l9">
             <h4>Jonathan Jackson - Ember Weekend Co-Host &amp; Senior Developer, Hashrocket</h4>
             <p>
               Jonathan is a seasoned veteran of the Ruby and Rails world, which taught Jonathan the value of convention and community.  Enter Ember, which shares much of the same philosophy.  Jonathan recognized the same energy from the Ruby / Rails community and dove in head first.
@@ -127,46 +154,19 @@
   {{#md-card-panel class="cyan lighten-5"}}
     <div class="row">
       <div class="col s12">
-            <h3 data-anchor='learn'>WHAT YOU'LL LEARN</h3>
-            <p class="center-align"><img class="responsive-img" src="img/modern-web-giga-cloud-ember-sm.png" alt="Giga Ember"></p>
-      </div>
-    </div>
-    <div class="row font-size-2em">
-      <div class="col s12">
-        <h4>Summary</h4>
-        <p>
-          This training is designed to quickly level up your Ember skills.  The fast paced curriculum will focus on building a solid foundation in Ember and dive into advanced Ember techniques.
-        </p>
-        <p>
-          From TDD to Engines, we'll teach you how to put a practical spin on many advanced techniques.
-        </p>
-        <p>
-          By the end of this course you should be able to start solving real business problems with Ember or have a better sense of maximizing your current use of Ember.
-        </p>
-      </div>
-    </div>
-  {{/md-card-panel}}
-  </div>
-</div>
-
-<div class="row">
-  <div class="col s12">
-  {{#md-card-panel class="cyan lighten-5"}}
-    <div class="row">
-      <div class="col s12">
             <h3 data-anchor='schedule'>SCHEDULE</h3>
       </div>
     </div>
-    <div class="row margin-top-30 font-size-2em">
+    <div class="row margin-top-30 font-size-15em">
       <div class="col s12 center-align">
         <h4>Participate in 1 or 2 days of Ember.js training based upon your skill level and expertise.</h4>
         <p><img class="responsive-img" src="img/cari-footer.png" alt="Cari"></p>
       </div>
     </div>
-    <div class="row margin-top-30 font-size-2em">
+    <div class="row margin-top-30 font-size-15em">
       <div class="col s12 m6 l6">
         <h4>Day 1 - EmberJS Fast Track</h4>
-        <p>Mon May 23, 2016, 9am-6pm</p>
+        <p class="red-text">Mon May 23, 2016, 9am-6pm</p>
         <p>
           {{register-button}}
         </p>
@@ -210,7 +210,7 @@
       </div>
       <div class="col s12 m6 l6">
         <h4>Day 2 - EmberJS Expansion Track</h4>
-        <p>Tues May 24, 2016, 9am-6pm</p>
+        <p class="red-text">Tues May 24, 2016, 9am-6pm</p>
         {{register-button}}
         <p>
           Attendance of Day 1 is not required, but recommended you understand all fundamental basics listed under key concepts.
@@ -307,7 +307,7 @@
             <h3>PREREQUISITES</h3>
       </div>
     </div>
-    <div class="row margin-top-30 font-size-2em">
+    <div class="row margin-top-30 font-size-15em">
       <div class="col s12">
         <h4 class="center-align">Recommended Skills</h4>
         <p>
