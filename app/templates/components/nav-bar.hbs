@@ -2,7 +2,6 @@
   <div class="container">
     {{#link-to 'index' class="brand-logo"}}
         <img class="responsive-img" src="img/modern-web-white-logo.png" alt="Modern Web Logo">
-        {{!-- <img src="img/m-w-80.jpg" class="logo-styling z-depth-2" alt="Modern Web Logo"> --}}
     {{/link-to}}
 
     <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
@@ -11,6 +10,7 @@
       {{nav-item location="events" displayName="Events"}}
       {{nav-item location="modern-web-podcast" displayName="Podcast"}}
       {{nav-item location="modern-web-ui" displayName="Modern Web UI"}}
+      {{nav-item location="signup" displayName="Newsletter"}}
 
       {{!-- {{nav-item location="beginners" displayName="For Beginners"}} --}}
       {{!-- {{nav-item location="friends" displayName="Friends"}} --}}
@@ -20,8 +20,8 @@
       {{#link-to 'events' tagName='li' class='nav-item'}}Events{{/link-to}}
       {{#link-to 'modern-web-podcast' tagName='li' class='nav-item'}}Podcast{{/link-to}}
       {{#link-to 'modern-web-ui' tagName='li' class='nav-item'}}Modern Web UI{{/link-to}}
+      {{#link-to 'signup' tagName='li' class='nav-item'}}Newsletter{{/link-to}}
 
-      <!-- {{#link-to 'signup' tagName='li' class='nav-item'}}Newsletter{{/link-to}} -->
       <!-- {{!-- {{#link-to 'beginners' tagName='li' class='nav-item'}}For Beginners{{/link-to}} --}} -->
       <!-- {{!-- {{#link-to 'friends' tagName='li' class='nav-item'}}Friends{{/link-to}} --}} -->
     </ul>
