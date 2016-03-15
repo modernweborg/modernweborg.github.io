@@ -8,7 +8,6 @@ var Router = Ember.Router.extend({
 Router.map(function() {
   this.route('modern-web-ui');
   this.route('modern-web-podcast');
-  this.route('beginners');
   this.route('welcome');
   this.route('friends');
   this.route('signup-page');
@@ -18,6 +17,8 @@ Router.map(function() {
   this.route('about');
   this.route('signup');
   this.route('trainings');
+  this.route('events');
+  this.route('terms-of-service');
 });
 
 export default Router;
