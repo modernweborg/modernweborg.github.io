@@ -1,15 +1,13 @@
 <div class="container">
   <div class="padding-top-30">
-    <h5 class="text-center">Through local meetups, we've helped develop content focused on next generation standards, frameworks, tools, and techniques.</h5>
-  </div>
-  <div class="padding-top-30 padding-bottom-30">
-    <h5 class="text-center">Here are Modern Web UI featured videos.</h5>
+    <h2 class="title-color center-align">Videos</h2>
+    <h5 class="text-center padding-top-15">Through local meetups, we've helped develop content focused on next generation standards, frameworks, tools, and techniques. Here are Modern Web UI featured videos.</h5>
   </div>
 </div>
 {{!-- videos --}}
 <div class="container-fluid">
     <div class="container">
-    <div class="row">
+    <div class="row padding-top-30">
       {{#each videos as |video|}}
         {{featured-video video=video}}
       {{/each}}
