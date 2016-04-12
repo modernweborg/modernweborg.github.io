@@ -19,6 +19,7 @@ Router.map(function() {
   this.route('trainings');
   this.route('events');
   this.route('terms-of-service');
+  this.route('snapchat');
 });
 
 export default Router;
