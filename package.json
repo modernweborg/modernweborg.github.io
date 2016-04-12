@@ -20,6 +20,7 @@
   "license": "MIT",
   "devDependencies": {
     "broccoli-asset-rev": "^2.0.2",
+    "coin-clicks": "1.0.2",
     "ember-anchor": "0.0.8",
     "ember-cli": "1.13.13",
     "ember-cli-app-version": "0.4.0",
@@ -44,6 +45,7 @@
     "ember-modal-dialog": "0.8.2",
     "ember-new-computed": "1.0.3",
     "ember-radio-button": "1.0.7",
-    "emberfire": "1.6.3"
+    "emberfire": "1.6.3",
+    "rainbow-tail": "0.0.2"
   }
 }
