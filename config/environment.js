@@ -4,11 +4,12 @@ module.exports = function(environment) {
   var ENV = {
     modulePrefix: 'modernweb',
     environment: environment,
-    contentSecurityPolicy: { 
+    contentSecurityPolicy: {
       'style-src':   "'self' 'unsafe-inline'",
       'connect-src': "'self' https://auth.firebase.com wss://*.firebaseio.com http://gdata.youtube.com",
       'frame-src':   "'self' https://w.soundcloud.com https://www.youtube.com",
-      'img-src':     "'self' http://img.youtube.com"
+      'img-src':     "'self' http://img.youtube.com",
+      'script-src': "'self' https://www.youtube.com https://s.ytimg.com"
     },
     firebase: 'https://modern-web-site.firebaseio.com/',
     baseURL: '/',
