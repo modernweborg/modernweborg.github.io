@@ -4,7 +4,7 @@ module.exports = function(environment) {
   var ENV = {
     modulePrefix: 'modernweb',
     environment: environment,
-    contentSecurityPolicy: { 
+    contentSecurityPolicy: {
       'style-src':   "'self' 'unsafe-inline'",
       'connect-src': "'self' https://auth.firebase.com wss://*.firebaseio.com http://gdata.youtube.com",
       'frame-src':   "'self' https://w.soundcloud.com https://www.youtube.com",
@@ -23,9 +23,6 @@ module.exports = function(environment) {
     APP: {
       // Here you can pass flags/options to your application instance
       // when it is created
-    },
-    sassOptions: {
-      includePaths: ['bower_components/materialize/sass']
     }
   };
 

@@ -1,0 +1,173 @@
+{{!-- S01E08 --}}
+	<div class="row">
+		<div class="col s12">
+			{{#md-card-panel bodyClass="black-text"}}
+			<div class="row">
+				<div class="col s12">
+					<h4>S01E08 - The Evolution of EmberJS and Mentoring Developers featuring EmberSherpa with EmberWeekend</h4>
+					<div class="video-container">
+						<iframe width="853" height="480" src="https://www.youtube.com/embed/8-Hu_rUnZ5w?list=PL-G5r6j4GptH6S6WnII0fg2fJqhST8SjJ" frameborder="0" allowfullscreen></iframe>
+					</div>
+					<div class="col s12">
+						<p class="font-size-15em">Taras, <a href="http://twitter.com/embersherpa">EmberSherpa</a>, speaks to Chase and Jonathan of <a href="http://twitter.com/emberweekend">EmberWeekend</a> on how the ember ecosystem is evolving with regards to application development, mentoring developers, what it's like to pair with 100+ people in just a few months, and more on this Modern Web podcast.</p>
+					</div>
+				</div>
+			</div>
+			{{/md-card-panel}}
+		</div>
+{{!-- end S01E08 --}}
+
+{{!-- S01E07 --}}
+		<div class="col s12">
+			{{#md-card-panel bodyClass="black-text"}}
+			<div class="row">
+				<div class="col s12">
+					<h4>S01E07 - The Polymer 2016 Roadmap featuring Rob Dodson with Justin Ribeiro</h4>
+					<iframe id="audio_iframe" src="http://www.podbean.com/media/player/k5i5a-5d52d5?skin=109" width="100%" height="100" frameborder="0" scrolling="no"></iframe>
+					<p class="font-size-15em">
+						In S01E07, <a href="http://twitter.com/rob_dodson">Rob Dodson</a>, Google Developer Advocate shares the future of web components and Polymer with us. <a href="http://twitter.com/justinribeiro">Justin Ribeiro</a>, Google Developer Expert interviews.
+					</p>
+					<p class="font-size-15em">
+						Rob gives us an update on the browser web components battle and where everyone is with relation to feature shipments. Shadow DOM and custom elements should be hitting more browsers this year, and where the future of HTML imports will be.
+					</p>
+					<p class="font-size-15em">
+						If you're looking to get started using web components, Rob covers what you as a developer can do right now and Polymer's vision for how they play in the web component ecosystem.
+					</p>
+					<p class="font-size-15em">
+						Rob discusses his opinions as to why large corporations are quicker to adopt web components than the OSS community, shares juicy gossip on an up and coming Polymer CLI, and tells us about cool tools like polygit.org!
+					</p>
+				</div>
+			</div>
+			{{/md-card-panel}}
+		</div>
+{{!-- end S01E07 --}}
+
+{{!-- S01E06 --}}
+		<div class="col s12">
+			{{#md-card-panel  bodyClass="black-text"}}
+			<div class="row">
+				<div class="col s12">
+					<h4>S01E06 - The Beginning of Ember, Ember-CLI-Deploy, and OSS Teams with Luke Melia &amp; Ember Weekend</h4>
+					<iframe id="audio_iframe" src="http://www.podbean.com/media/player/bjgre-5d4a80?skin=109" width="100%" height="100" frameborder="0" scrolling="no"></iframe>
+					<p class="font-size-15em"><a href="http://twitter.com/code0100fun">Chase</a> and <a href="http://twitter.com/rondale_sc">Jonathan</a> from <a href="http://twitter.com/emberweekend">Ember Weekend</a> interview <a href="http://twitter.com/lukemelia">Luke Melia</a> from <a href="http://twitter.com/yapplabs">Yapp Labs</a>. Luke shares the beginning of Ember and the adoption of Ember at Yapp Labs when it was just him and Kris Selden coding it up. He shares the behind how Ember NYC started, and how ember-cli-deploy became the default deployment story for Ember.</p>
+					<p class="font-size-15em">
+						Luke also discusses the success of the ember-cli-deploy plugin ecosystem, the natural evolution of the ember-cli-deploy team, collaboration for open source projects in the ember ecosystem, and his thoughts on how javascript and frameworks will evolve in the next year.
+					</p>
+				</div>
+			</div>
+			{{/md-card-panel}}
+		</div>
+{{!-- end S01E06 --}}
+
+
+{{!-- S01E05 the trailer--}}
+		<div class="col s12">
+			{{#md-card-panel  bodyClass="black-text"}}
+			<div class="row">
+				<div class="col s12">
+					<h4>S01E05 Trailer - "I really like Angular 2" - Jafar Husain</h4>
+					<div class="video-container">
+						<iframe width="853" height="480" src="https://www.youtube.com/embed/1NXhOChi54U?list=PL-G5r6j4GptH6S6WnII0fg2fJqhST8SjJ" frameborder="0" allowfullscreen></iframe>
+					</div>
+					<p class="font-size-15em">60 second promo trailer for Season 1 Episode 5 of the <a href="http://twitter.com/jeffbcross">Jeff Cross</a> Show on Modern Web featuring <a href="http://twitter.com/jhusain">Jafar Husain</a> of Netflix.</p>
+					<p class="font-size-15em">Two words: auto &amp; tune.</p>
+				</div>
+				<div class="col s12">
+					<iframe id="audio_iframe" src="http://www.podbean.com/media/player/xben5-5cf23b?from=yiiadmin&skin=109&postId=6091323&download=0&share=1&fonts=Helvetica&auto=0" height="100" width="100%" frameborder="0" scrolling="no" data-name="pb-iframe-player"></iframe>
+				</div>
+			</div>
+			{{/md-card-panel}}
+		</div>
+{{!-- end S01E05 the trailer --}}
+
+{{!-- S01E05 --}}
+		<div class="col s12">
+			{{#md-card-panel  bodyClass="black-text"}}
+			<div class="row">
+				<div class="col s12">
+					<h4>S01E05 - It was an observation, I <i>Promise</i></h4>
+					<div class="video-container">
+						<iframe width="853" height="480" src="https://www.youtube.com/embed/XhVyrAFed58?list=PL-G5r6j4GptH6S6WnII0fg2fJqhST8SjJ" frameborder="0" allowfullscreen></iframe>
+					</div>
+					<div class="col s12">
+						<p class="font-size-15em">Welcome to the <a href="http://twitter.com/jeffbcross">Jeff Cross</a> Show on Modern Web!</p>
+						<p class="font-size-15em"><a href="http://twitter.com/jhusain">Jafar Husain</a> of Netflix tells us why Angular 2 is the greatest framework ever, then gets put through the ringer with code questions from Jeff Cross. He also speaks about the history of ReactiveX, gives his opinion on observers and promises, and jams on the state of functional programing exploding in the javascript community. He also speaks on FalcorJS and how the project came about at Netflix and its origination.</p>
+					</div>
+					<div class="col s12">
+						<iframe id="audio_iframe" src="http://www.podbean.com/media/player/z4pm8-5cf1f4?from=yiiadmin&skin=109&postId=6091252&download=0&share=1&fonts=Helvetica&auto=0" height="100" width="100%" frameborder="0" scrolling="no" data-name="pb-iframe-player"></iframe>
+					</div>
+				</div>
+			</div>
+			{{/md-card-panel}}
+		</div>
+{{!-- end S01E05 --}}
+
+{{!-- S01E04 --}}
+		<div class="col s12">
+			{{#md-card-panel  bodyClass="black-text"}}
+			<div class="row">
+				<div class="col s12">
+					<h4>S01E04 - MobileDoc, Torii, and the future of EmberJS</h4>
+					<iframe id="audio_iframe" src="http://www.podbean.com/media/player/wmurn-5cae29?skin=109" width="100%" height="100" frameborder="0" scrolling="no"></iframe>
+					<p class="font-size-15em"><a href="http://twitter.com/mixonic">Matt Beale</a>, EmberJS core team member discusses with Chase McCarthy and Jonathan Jackson of <a href="http://twitter.com/emberweekend">Ember Weekend</a> his hopes of MobileDoc playing an integral role in the ever-changing web ecosystem, Torii's past, present, and future, and how EmberJS is evolving as a framework and what he believes the future holds for teams such as ember-cli-deploy, ember-data, and more.</p>
+				</div>
+			</div>
+			{{/md-card-panel}}
+		</div>
+{{!-- end S01E04 --}}
+
+{{!-- S01E03 --}}
+		<div class="col s12">
+			{{#md-card-panel  bodyClass="black-text"}}
+			<div class="row">
+				<div class="col s12">
+					<h4>S01E03 - ES6, Beard of Jeff Cross, Air Squats, and JavaScript Air</h4>
+					<iframe id="audio_iframe" src="http://www.podbean.com/media/player/gxcb6-5cae22?skin=109" width="100%" height="100" frameborder="0" scrolling="no"></iframe>
+					<p class="font-size-15em">In this podcast, <a href="htttp://twitter.com/kentcdodds">Kent C. Dodds</a> talks about JavaScript Air and the backlash he's experienced after leaving Angular Air, how he views learning frameworks, his favorite ES6 features, how air squats play a significant role in his speaker life, and how the beard of Jeff Cross brings super powers to the JavaScript community. <a href="http://twitter.com/benlesh">Ben Lesh</a> prods.</p>
+				</div>
+			</div>
+			{{/md-card-panel}}
+		</div>
+{{!-- end S01E03 --}}
+
+{{!-- S01E02.2 --}}
+		<div class="col s12">
+			{{#md-card-panel  bodyClass="black-text"}}
+			<div class="row">
+				<div class="col s12">
+					<h4>S01E02 Part 2 - Promises Bad, Observables Good</h4>
+					<iframe id="audio_iframe" src="http://www.podbean.com/media/player/j4me2-5ca7f8?skin=109" width="100%" height="100" frameborder="0" scrolling="no"></iframe>
+					<p class="font-size-15em">Why are promises bad and observables good? <a href="http://twitter.com/benlesh">Ben Lesh</a>, lead on RxJS 5 talks to Taras Mankovski ((<a href="http://twitter.com/embersherpa">@embersherpa</a>)) about how observables are the way of the future and why you should use them.</p>
+				</div>
+			</div>
+			{{/md-card-panel}}
+		</div>
+{{!-- end S01E02.2 --}}
+
+{{!-- S01E02.1 --}}
+		<div class="col s12">
+			{{#md-card-panel  bodyClass="black-text"}}
+			<div class="row">
+				<div class="col s12">
+					<h4>S01E02 Part 1 - Angular vs Ember vs React at Netflix</h4>
+					<iframe id="audio_iframe" src="http://www.podbean.com/media/player/ezwbs-5ca7ec?skin=109" width="100%" height="100" frameborder="0" scrolling="no"></iframe>
+					<p class="font-size-15em"><a href="http://twitter.com/benlesh">Ben Lesh</a> reveals all to Taras Mankovski (<a href="http://twitter.com/embersherpa">@embersherpa</a>) and talks about frameworks at Netflix. Hear what he has to say about Angular vs Ember vs React at Netflix.</p>
+				</div>
+			</div>
+			{{/md-card-panel}}
+		</div>
+{{!-- end S01E02.1 --}}
+
+{{!-- S01E01 --}}
+		<div class="col s12">
+			{{#md-card-panel  bodyClass="black-text"}}
+			<div class="row">
+				<div class="col s12">
+					<h4>S01E01 - What the TC39?</h4>
+					<iframe id="audio_iframe" src="http://www.podbean.com/media/player/5yebs-5ca7d0?skin=109" width="100%" height="100" frameborder="0" scrolling="no"></iframe>
+					<p class="font-size-15em">What is TC39? <a href="http://twitter.com/wycats">Yehuda Katz</a> is interviewed by <a href="http://twitter.com/_jayphelps">Jay Phelps</a> and discusses details behind what TC39 does as an organization, ES2015, and more.</p>
+				</div>
+			</div>
+			{{/md-card-panel}}
+		</div>
+	{{!-- end S01E01 --}}

@@ -166,12 +166,17 @@ main {
     z-index: 800;
   }
 
-  .static {
+  .static,
+  .static-podcast {
     top: -30px;
     height: auto;
     margin:auto;
     display:block;
     cursor: pointer;
+  }
+
+  .static-podcast {
+    top: -45px;
   }
 }
 
