@@ -14,12 +14,12 @@
 </div>
 {{!-- end snap button --}}
 
-<div class="col s12">
-	<div class="row">
+<div class="col s12 cards-container">
+	{{!-- <div class="row"> --}}
 		{{#each model.podcasts as |podcast| }}
 			{{iframe-card model=podcast}}
 		{{/each}}
-	</div>
+	{{!-- </div> --}}
 </div>
 
 {{!-- add giga --}}
