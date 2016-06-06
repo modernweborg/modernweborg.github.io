@@ -261,7 +261,7 @@ export default Ember.Route.extend({
           name: 'Taras Mankovski',
           twitter: 'embersherpa'
         }],
-        imageURL: '/img/podcasts/mmodern-web-play-button.jpg'
+        imageURL: '/img/podcasts/modern-web-play-button.jpg'
       }, {
         type: 'podbean',
         id: 'ezwbs-5ca7ec',

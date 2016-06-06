@@ -208,11 +208,19 @@ $medium-only: "only screen and (min-width : #{$small-screen-up}) and (max-width 
   column-count: $ct;
 }
 
+@mixin column-break-inside($ct: avoid) {
+  -webkit-column-break-inside: $ct;
+  page-break-inside: $ct;
+  break-inside: $ct;
+}
+
 .cards-container {
-  column-break-inside: avoid;
   .card {
     display: inline-block;
     overflow: visible;
+  }
+  .card-panel {
+    @include column-break-inside();
   }
 }
 

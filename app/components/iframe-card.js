@@ -1,6 +1,7 @@
 import Ember from 'ember';
 
 export default Ember.Component.extend({
+  tagName: '',
   hasClicked: false,
 
   descriptionParagraphs: Ember.computed('model.description', function() {
