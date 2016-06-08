@@ -1,29 +1,26 @@
-<div class="container">
-  <div class="padding-top-30">
-    <h2 class="title-color center-align">Videos</h2>
-    <h5 class="text-center padding-top-15">Through local meetups, we've helped develop content focused on next generation standards, frameworks, tools, and techniques. Here are Modern Web UI featured videos.</h5>
-  </div>
+<div class="padding-top-30">
+  <h2 class="title-color center-align">Videos</h2>
+  <h5 class="text-center padding-top-15">Through local meetups, we've helped develop content focused on next generation standards, frameworks, tools, and techniques. Here are Modern Web UI featured videos.</h5>
 </div>
+
 {{!-- videos --}}
-<div class="container-fluid">
-    <div class="container">
-    <div class="row padding-top-30">
-      {{#each videos as |video|}}
-        {{featured-video video=video}}
-      {{/each}}
-    </div>
-    {{!-- end videos --}}
-    {{!-- featured speakers section --}}
-    <div class="row">
-      <div class="col s12">
-        <h5>Featured Speakers</h5>
-      </div>
-      <div class="col s12">
-        {{#each speakers as |speaker|}}
-          {{speaker-profile-card speaker=speaker}}
-        {{/each}}
-      </div>
-    </div>
-    {{!-- end featured speakers section --}}
-  </div>
+<div class="col s12 cards-container">
+	{{!-- <div class="row"> --}}
+		{{#each model.videos as |video| }}
+			{{iframe-card model=video}}
+		{{/each}}
+	{{!-- </div> --}}
 </div>
+{{!-- end videos --}}
+{{!-- featured speakers section --}}
+{{!-- <div class="row">
+  <div class="col s12">
+    <h5>Featured Speakers</h5>
+  </div>
+  <div class="col s12">
+    {{#each speakers as |speaker|}}
+      {{speaker-profile-card speaker=speaker}}
+    {{/each}}
+  </div>
+</div> --}}
+{{!-- end featured speakers section --}}
