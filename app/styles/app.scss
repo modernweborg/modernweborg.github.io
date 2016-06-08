@@ -151,7 +151,7 @@ main {
 
 .video-container {
   position: relative;
-  overflow: hidden;
+  overflow: visible;
   height: 100%;
   width: 100%;
 
@@ -168,16 +168,17 @@ main {
 
   .static,
   .static-podcast {
-    top: -30px;
+    // top: -30px;
     height: auto;
+        height: 240px;
     margin:auto;
     display:block;
     cursor: pointer;
   }
 
-  .static-podcast {
-    top: -45px;
-  }
+  // .static-podcast {
+  //   top: -45px;
+  // }
 }
 
 .font-size-15em {
@@ -207,8 +208,7 @@ $medium-only: "only screen and (min-width : #{$small-screen-up}) and (max-width 
   -moz-column-count: $ct;
   column-count: $ct;
 }
-
-@mixin column-break-inside($ct: avoid) {
+@mixin column-break-inside($ct: avoid-column) {
   -webkit-column-break-inside: $ct;
   page-break-inside: $ct;
   break-inside: $ct;
@@ -219,8 +219,27 @@ $medium-only: "only screen and (min-width : #{$small-screen-up}) and (max-width 
     display: inline-block;
     overflow: visible;
   }
+  .card-panel-wrapper {
+    margin-bottom: 5px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin-top: 5px;
+  }
   .card-panel {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.16), 0 5px 10px 0 rgba(0, 0, 0, 0.12);
     @include column-break-inside();
+    .video-container {
+      padding-bottom:0;
+      height:240px;
+    }
+    .video.responsive-img{
+      height:240px;
+      background-repeat:no-repeat;
+      background-size:cover;
+      background-position: center;
+    }
   }
 }
 

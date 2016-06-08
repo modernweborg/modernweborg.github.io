@@ -4,16 +4,16 @@
 </div>
 
 {{!-- videos --}}
-<div class="col s12">
-	<div class="row">
+<div class="col s12 cards-container">
+	{{!-- <div class="row"> --}}
 		{{#each model.videos as |video| }}
 			{{iframe-card model=video}}
 		{{/each}}
-	</div>
+	{{!-- </div> --}}
 </div>
 {{!-- end videos --}}
 {{!-- featured speakers section --}}
-<div class="row">
+{{!-- <div class="row">
   <div class="col s12">
     <h5>Featured Speakers</h5>
   </div>
@@ -22,5 +22,5 @@
       {{speaker-profile-card speaker=speaker}}
     {{/each}}
   </div>
-</div>
+</div> --}}
 {{!-- end featured speakers section --}}

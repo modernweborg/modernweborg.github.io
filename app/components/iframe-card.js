@@ -23,7 +23,6 @@ export default Ember.Component.extend({
 
       default:
         throw new Error('Unknown model type: ' + this.get('model.type'));
-        break;
     }
   }),
 

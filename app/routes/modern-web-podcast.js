@@ -289,6 +289,6 @@ export default Ember.Route.extend({
         }],
         imageURL: '/img/podcasts/modern-web-play-button.jpg'
       }]
-    }
+    };
   }
 });
