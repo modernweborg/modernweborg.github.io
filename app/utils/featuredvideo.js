@@ -1,6 +1,7 @@
 export default [{
   type: 'youtube',
   id: 'm-HjKwyQoQg',
+  vanity: 'james-kyle',
   title: 'BabelJS',
   description: '',
   presenters: [{
