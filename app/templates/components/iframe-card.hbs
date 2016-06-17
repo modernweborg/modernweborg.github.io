@@ -1,16 +1,18 @@
 {{!-- <div class="col s6 m6 l3"> --}}
 <div class='card-panel-wrapper'>
-  {{#md-card-panel bodyClass="black-text"}}
-    <h4>{{model.title}}</h4>
-    <div class={{if (eq model.type "youtube") "video-container"}} {{action (action (mut hasClicked) true) on="click"}}>
-      {{#if hasClicked}}
-        <iframe width="100%" height="100" src={{iframeURL}} frameborder="0" allowfullscreen></iframe>
-      {{else}}
-        <div class='video static-podcast responsive-img' style='background-image:url("{{imageURL}}")' alt={{model.title}}></div>
-      {{/if}}
-    </div>
-    {{#each descriptionParagraphs as |description|}}
-      <p class="font-size-15em">{{description}}</p>
-    {{/each}}
-  {{/md-card-panel}}
+  {{#link-to 'modern-web-podcast.podcast' model.vanity}}
+    {{#md-card-panel bodyClass="black-text"}}
+      <h4>{{model.title}}</h4>
+      <div class={{if (eq model.type "youtube") "video-container"}} {{action (action (mut hasClicked) true) on="click"}}>
+        {{#if hasClicked}}
+          <iframe width="100%" height="100" src={{iframeURL}} frameborder="0" allowfullscreen></iframe>
+        {{else}}
+          <div class='video static-podcast responsive-img' style='background-image:url("{{imageURL}}")' alt={{model.title}}></div>
+        {{/if}}
+      </div>
+      {{#each descriptionParagraphs as |description|}}
+        <p class="font-size-15em">{{description}}</p>
+      {{/each}}
+    {{/md-card-panel}}
+  {{/link-to}}
 </div>
