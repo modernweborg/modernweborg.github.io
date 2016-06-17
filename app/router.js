@@ -8,7 +8,7 @@ var Router = Ember.Router.extend({
 Router.map(function() {
   this.route('modern-web-ui');
   this.route('modern-web-podcast', function() {
-    this.route('podcast', {path:'podcast/:id'});
+    this.route('podcast', {path:'podcast/:vanity'});
   });
   this.route('welcome');
   this.route('friends');
