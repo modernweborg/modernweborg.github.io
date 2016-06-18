@@ -1,7 +1,7 @@
 export default [{
   type: 'youtube',
   id: 'm-HjKwyQoQg',
-  vanity: 'james-kyle',
+  vanity: 'james-kyle-babeljs',
   title: 'BabelJS',
   description: '',
   presenters: [{
@@ -10,6 +10,7 @@ export default [{
 }, {
   type: 'youtube',
   id: '6P7hwhvlwig',
+  vanity: 'jay-phelps-es2015',
   title: 'ES2015 & Beyond',
   description: '',
   presenters: [{
@@ -18,23 +19,30 @@ export default [{
 }, {
   type: 'youtube',
   id: 'ivti_bVkgwg',
+  vanity: 'jeff-cross-angular2-firebase',
   title: 'Angular 2 & Firebase',
   description: '',
   presenters: [{
     name: 'Jeff Cross'
   }]
-},
+},{
+  type: 'youtube',
+  id: 'h-dy5tHm2TA',
+  vanity: 'broccoli-htmlbars-glimmer2',
+  title: 'BroccoliJS, HTMLBars, and Glimmer 2',
+  description: '',
+  presenters: [{
+    name: 'Yehuda Katz'
+  },{
+    name: 'Godfrey Chan'
+  },{
+    name: 'Stefan Penner'
+  }]
+  },
 
 /* PORT THE REST OF THESE OVER!!!! vvvvvvvvvvvvvvvv  */
 
 {
-  title: 'BroccoliJS, HTMLBars, and Glimmer 2',
-  description: '',
-  presenters: 'Stefan Penner, Godfrey Chan, Yehuda Katz',
-  videoURL:   'https://www.youtube.com/embed/h-dy5tHm2TA?rel=0',
-  imageURL:   'http://img.youtube.com/vi/h-dy5tHm2TA/hqdefault.jpg',
-  keyTopics:  'Glimmer, HTMLBars, BroccoliJS'
-}, {
   title: 'Bind to the Cloud with Falcor',
   description: '',
   presenters: 'Jafar Husain',

@@ -1,5 +1,5 @@
 <div class='card-panel-wrapper'>
-  {{#link-to 'modern-web-podcast.podcast' model.vanity}}
+  {{#link-to 'modern-web-ui.video' model.vanity}}
     {{#md-card-panel bodyClass="black-text"}}
       <h4>{{model.title}}</h4>
       <div class={{if (eq model.type "youtube") "video-container"}} {{action (action (mut hasClicked) true) on="click"}}>
