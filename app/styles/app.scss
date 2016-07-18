@@ -33,6 +33,14 @@ $sponsor_logo: 400px;
 
 // end font sizes
 
+.force-wrap {
+  white-space: normal !important;
+}
+
+.white-text-background {
+  background-color: rgba(255, 255, 255, 0.75);
+}
+
 // sticky footer
 body, html {
 	background-color: #fafafa;
@@ -214,17 +222,7 @@ $medium-only: "only screen and (min-width : #{$small-screen-up}) and (max-width 
   break-inside: $ct;
 }
 
-.cards-container {
-  .card {
-    display: inline-block;
-    overflow: visible;
-  }
-  .card-panel-wrapper {
-    margin-bottom: 5px;
-    padding-bottom: 10px;
-    padding-top: 10px;
-    margin-top: 5px;
-  }
+.new-cards-container {
   .card-panel {
     margin-top: 0px;
     margin-bottom: 0px;
@@ -241,6 +239,13 @@ $medium-only: "only screen and (min-width : #{$small-screen-up}) and (max-width 
       background-position: center;
     }
   }
+}
+
+.responsive-img{
+  height:240px;
+  background-repeat:no-repeat;
+  background-size:cover;
+  background-position: center;
 }
 
 @media #{$small-and-down} {
