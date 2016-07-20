@@ -1,5 +1,5 @@
 import Ember from 'ember';
-import groupsOfThree from 'modernweb/utils/groupsOfThree';
+import groupsOf from 'modernweb/utils/groupsOf';
 import ensureImage from 'modernweb/utils/ensureImage';
 
 /*
@@ -29,7 +29,7 @@ export default Ember.Route.extend({
   model() {
     const model = this.modelFor('modern-web-podcast');
     const podcasts = model.podcasts.map(ensureImage(splitDescriptionParagraphs));
-    const groupedPodcasts = groupsOfThree(podcasts);
+    const groupedPodcasts = groupsOf(4)(podcasts);
     return Object.assign({}, model, { podcasts, groupedPodcasts });
   }
 });

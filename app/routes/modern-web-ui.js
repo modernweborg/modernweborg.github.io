@@ -1,7 +1,7 @@
 import Ember from 'ember';
 import speakers from 'modernweb/utils/speakers';
 import videos from 'modernweb/utils/featuredvideo';
-import groupsOfThree from 'modernweb/utils/groupsOfThree';
+import groupsOf from 'modernweb/utils/groupsOf';
 import ensureImage from 'modernweb/utils/ensureImage';
 
 const ensureVideoURL = (video) => {
@@ -19,7 +19,7 @@ export default Ember.Route.extend({
 		return {
 			speakers: speakers.filterBy('current', true),
 			videos: videos,
-			grouped: groupsOfThree(videos.map(ensureImage(ensureVideoURL)))
+			grouped: groupsOf(4)(videos.map(ensureImage(ensureVideoURL)))
 		};
 	}
 });
