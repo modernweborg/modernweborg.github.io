@@ -12,7 +12,7 @@ const ensureVideoURL = (video) => {
 			videoURL: `https://www.youtube.com/embed/${video.id}`
 		});
 	}
-}
+};
 
 export default Ember.Route.extend({
 	model: function() {
