@@ -22,6 +22,7 @@ Router.map(function() {
   this.route('events');
   this.route('terms-of-service');
   this.route('snapchat');
+  this.route('dino-game');
 });
 
 export default Router;
