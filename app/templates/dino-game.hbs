@@ -6,18 +6,34 @@
 <div>
   <div class="row">
     <p class="text-center padding-top-15">This game is easy. Simply drag the frameworks into Giga's cloud and something magical will happen. This illustrates how composable helpers can build a simple drag and drop easily in ember.</p>
-    <div class="col l6">
+    <div class="col l4">
       <div class="card-panel">
-          <img class="responsive-img" src="img/js-logos/angular2-logo.jpg" alt="Angular">
-          <img class="responsive-img" src="img/js-logos/babeljs-logo.jpg" alt="Babel">
-          <img class="responsive-img" src="img/js-logos/ember-logo.png" alt="Ember">
-          <img class="responsive-img" src="img/js-logos/polymer-logo.png" alt="Polymer">
-          <img class="responsive-img" src="img/js-logos/react-logo.png" alt="React">
-          <img class="responsive-img" src="img/js-logos/web-components-logo.png" alt="Web Components">
-        </div>
+        {{#with (array
+            (hash img="angular2-logo.jpg" alt="Angular")
+            (hash img="babeljs-logo.jpg" alt="Babel")
+            (hash img="ember-logo.png" alt="Ember")
+            (hash img="polymer-logo.png" alt="Polymer")
+            (hash img="react-logo.png" alt="React")
+            (hash img="web-components-logo.png" alt="Web Components")
+          ) as |frameworks|}}
+          {{#each frameworks as |framework|}}
+            <img draggable=true class="responsive-img" src="img/dino-game/{{framework.img}}" alt="{{framework.alt}}"
+              ondragstart={{action (action (mut dragging) framework)}}
+            >
+          {{/each}}
+        {{/with}}
+      </div>
     </div>
-    <div class="col l6">
-      <img src="img/modern-web-giga-cloud-blank.png" alt="giga">
+    <div class="col l8">
+      <div
+          ondrop={{action (pipe (action 'add' dragging))}}
+          ondragover={{action (pipe (prevent-default) (drop-effect 'move'))}}
+        >
+        {{#each dragged as |framework|}}
+          <img class="responsive-img" src="img/dino-game/{{framework.img}}" alt="{{framework.alt}}">
+        {{/each}}
+        <img src="img/modern-web-giga-cloud-blank.png" alt="giga">
+      </div>
     </div>
   </div>
 </div>
