@@ -11,16 +11,17 @@
   and 2. The `groups` list I'm adding groups too. At the end, the `reduce` call returns the entire state,
   and I get just the `.groups` property off of it and return.
 
-  @param {Array} arr the array to create the results from
-  @returns {Array} an array of arrays grouped into threes
+  @param {Array} size the array to create the results from
+  @returns {function} a function that takes an array and creates an array of grouped arrays.
 */
-export default function groupsOfThree(arr) {
-  return (arr.reduce(({ group, groups }, item, i) => {
-    if (!group || i % 3 === 0) {
-      group = [];
-      groups.push(group);
-    }
-    group.push(item);
-    return { groups, group };
-  }, { group: null, groups: [] })).groups;
+export default function groupsOf(size) {
+  return (arr) =>
+    (arr.reduce(({ group, groups }, item, i) => {
+      if (!group || i % size === 0) {
+        group = [];
+        groups.push(group);
+      }
+      group.push(item);
+      return { groups, group };
+    }, { group: null, groups: [] })).groups;
 }
