@@ -1,0 +1,11 @@
+{{#each model as |stickerRequest|}}
+  <div>
+    {{stickerRequest.firstName}}
+    {{stickerRequest.lastName}}
+    {{stickerRequest.email}}
+  </div>
+{{/each}}
+
+{{yield}}
+
+{{new-sticker-request}}

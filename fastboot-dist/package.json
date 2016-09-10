@@ -1,0 +1,11 @@
+{
+  "dependencies": {},
+  "fastboot": {
+    "moduleWhitelist": [],
+    "manifest": {
+      "appFile": "fastboot/modernweb.js",
+      "vendorFile": "fastboot/vendor.js",
+      "htmlFile": "index.html"
+    }
+  }
+}

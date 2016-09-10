@@ -10,7 +10,12 @@ module.exports = function(environment) {
       'frame-src':   "'self' https://w.soundcloud.com https://www.youtube.com",
       'img-src':     "'self' http://img.youtube.com"
     },
-    firebase: 'https://modern-web-site.firebaseio.com/',
+    firebase: {
+      apiKey: "AIzaSyBD8cyaIXvo7_ewQ7SDu8_CiqkW2z_hpwo",
+      authDomain: "modern-web-5eb9f.firebaseapp.com",
+      databaseURL: "https://modern-web-5eb9f.firebaseio.com",
+      storageBucket: "",
+    },
     baseURL: '/',
     locationType: 'hash',
     EmberENV: {

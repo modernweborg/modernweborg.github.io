@@ -23,6 +23,7 @@ Router.map(function() {
   this.route('terms-of-service');
   this.route('snapchat');
   this.route('dino-game');
+  this.route('request-stickers');
 });
 
 export default Router;
