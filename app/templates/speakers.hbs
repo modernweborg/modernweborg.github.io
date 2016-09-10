@@ -1,0 +1,26 @@
+<div class="padding-top-30">
+  <h2 class="title-color center-align">Speakers &amp; Guests</h2>
+</div>
+
+<div class="row">
+  {{#each model as |speaker|}}
+       <div class="col s12 m6 l3">
+         <div class="card">
+           <div class="card-image">
+             <img src="{{speaker.image}}">
+           </div>
+           <div class="card-content">
+            <p>
+              {{speaker.cardTitle}}
+            </p>
+             <p>
+               {{speaker.title}}
+             </p>
+           </div>
+           <div class="card-action">
+               <a href="http://twitter.com/{{speaker.twitter}}">@{{speaker.twitter}}</a>
+           </div>
+         </div>
+       </div>
+    {{/each}}
+  </div>
