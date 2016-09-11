@@ -1,9 +1,16 @@
 <div class="padding-top-30">
-  <h2 class="title-color center-align">Speakers &amp; Guests</h2>
+  <h2 class="title-color center-align">Modern Web Speakers &amp; Podcast Guests</h2>
+</div>
+
+<div class="row">
+  <div class="col s12">
+    <h2 class="title-color">Speakers</h2>
+  </div>
 </div>
 
 <div class="row">
   {{#each model as |speaker|}}
+    {{#if speaker.isEvent}}
        <div class="col s12 m6 l3">
          <div class="card">
            <div class="card-image">
@@ -22,5 +29,37 @@
            </div>
          </div>
        </div>
+    {{/if}}
+  {{/each}}
+</div>
+
+  <div class="row">
+    <div class="col s12">
+      <h2 class="title-color">Podcast Guests</h2>
+    </div>
+  </div>
+
+  <div class="row">
+    {{#each model as |speaker|}}
+      {{#if speaker.isPodcast}}
+         <div class="col s12 m6 l3">
+           <div class="card">
+             <div class="card-image">
+               <img src="{{speaker.image}}">
+             </div>
+             <div class="card-content">
+              <p>
+                {{speaker.cardTitle}}
+              </p>
+               <p>
+                 {{speaker.title}}
+               </p>
+             </div>
+             <div class="card-action">
+                 <a href="http://twitter.com/{{speaker.twitter}}">@{{speaker.twitter}}</a>
+             </div>
+           </div>
+         </div>
+      {{/if}}
     {{/each}}
   </div>

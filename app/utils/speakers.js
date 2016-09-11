@@ -3,15 +3,17 @@ export default [{
 	title: 'Ember Core Team',
 	image: 'img/speakers/matt-beale.png',
 	twitter: 'mixonic',
-	types: ['podcast'],
-	current: true
+	isPodcast: true,
+	isEvent: false,
+	current: false
 },
 {
 	cardTitle: 'Luke Melia',
 	title: 'Co-Founder, Yapp Labs',
 	image: 'img/speakers/luke-melia.jpeg',
 	twitter: 'lukemelia',
-	types: ['podcast'],
+	isPodcast: true,
+	isEvent: false,
 	current: true
 },
 {
@@ -19,7 +21,8 @@ export default [{
 	title: 'Principal Software Engineer, Microsoft',
 	image: 'img/speakers/matt-podwysocki.jpeg',
 	twitter: 'mattpodwysocki',
-	types: ['podcast'],
+	isPodcast: true,
+	isEvent: false,
 	current: true
 },
 {
@@ -27,7 +30,8 @@ export default [{
 	title: 'Founder, The Frontside',
 	image: 'img/speakers/charles-lowell.jpg',
 	twitter: 'cowboyd',
-	types: ['podcast'],
+	isPodcast: true,
+	isEvent: false,
 	current: true
 },
 {
@@ -35,7 +39,8 @@ export default [{
 	title: 'Software Developer, Q2e Banking',
 	image: 'img/speakers/toran-billups.jpeg',
 	twitter: 'toranb',
-	types: ['podcast'],
+	isPodcast: true,
+	isEvent: false,
 	current: true
 },
 {
@@ -43,7 +48,8 @@ export default [{
 	title: 'Ionic Core Team',
 	image: 'img/speakers/adam-bradley.jpeg',
 	twitter: 'adamdbradley',
-	types: ['event', 'podcast'],
+	isPodcast: true,
+	isEvent: true,
 	current: true
 },
 {
@@ -51,7 +57,8 @@ export default [{
 	title: 'Ionic Core Team',
 	image: 'img/speakers/brandy-carney.jpg',
 	twitter: 'brandyscarney',
-	types: ['event', 'podcast'],
+	isPodcast: true,
+	isEvent: true,
 	current: true
 },
 {
@@ -59,7 +66,8 @@ export default [{
 	title: 'The Frontside',
 	image: 'img/speakers/robert-deluca.jpg',
 	twitter: 'robdel12',
-	types: ['podcast'],
+	isPodcast: true,
+	isEvent: false,
 	current: true
 },
 {
@@ -67,7 +75,8 @@ export default [{
 	title: 'Ember Developer',
 	image: 'img/speakers/george-chapman.jpg',
 	twitter: 'gnchapman',
-	types: ['podcast'],
+	isPodcast: true,
+	isEvent: false,
 	current: true
 },
 {
@@ -75,7 +84,8 @@ export default [{
 	title: 'Developer',
 	image: 'img/speakers/suz-hinton.jpg',
 	twitter: 'noopkat',
-	types: ['podcast'],
+	isPodcast: true,
+	isEvent: false,
 	current: true
 },
 {
@@ -83,7 +93,8 @@ export default [{
 	title: 'Web Developer, With Associates',
 	image: 'img/speakers/jamie-white.png',
 	twitter: 'jgwhite',
-	types: ['podcast'],
+	isPodcast: true,
+	isEvent: false,
 	current: true
 },
 {
@@ -91,7 +102,8 @@ export default [{
 	title: 'Software Engineer, Zesty',
 	image: 'img/speakers/ben-holmes.jpeg',
 	twitter: 'binhums',
-	types: ['podcast'],
+	isPodcast: true,
+	isEvent: false,
 	current: true
 },
 {
@@ -99,7 +111,8 @@ export default [{
 	title: 'Angular Bootcamp',
 	image: 'img/speakers/bill-odom.jpg',
 	twitter: 'wnodom',
-	types: ['podcast'],
+	isPodcast: true,
+	isEvent: false,
 	current: true
 },
 {
@@ -107,7 +120,8 @@ export default [{
 	title: 'Founder, React Rally',
 	image: 'img/speakers/matt-zabriskie.jpg',
 	twitter: 'mzabriskie',
-	types: ['podcast'],
+	isPodcast: true,
+	isEvent: false,
 	current: true
 },
 {
@@ -115,7 +129,8 @@ export default [{
 	title: 'Founder, React Rally',
 	image: 'img/speakers/jamison-dance.jpeg',
 	twitter: 'jergason',
-	types: ['podcast'],
+	isPodcast: true,
+	isEvent: false,
 	current: true
 },
 {
@@ -123,7 +138,8 @@ export default [{
 	title: 'Co-Founder, Flood.io',
 	image: 'img/speakers/ivan-vanderbyl.jpeg',
 	twitter: 'ivanderbyl',
-	types: ['podcast'],
+	isPodcast: true,
+	isEvent: false,
 	current: true
 },
 {
@@ -131,7 +147,8 @@ export default [{
 	title: 'Author, Rock n Roll Ember',
 	image: 'img/speakers/balint-erdi.jpg',
 	twitter: 'baaz',
-	types: ['podcast'],
+	isPodcast: true,
+	isEvent: false,
 	current: true
 },
 {
@@ -139,7 +156,8 @@ export default [{
 	title: 'Founder, The Practical Dev',
 	image: 'img/speakers/ben-halpern.jpg',
 	twitter: 'thepracticaldev',
-	types: ['podcast'],
+	isPodcast: true,
+	isEvent: false,
 	current: true
 },
 {
@@ -147,7 +165,8 @@ export default [{
 	title: 'EmberWeekend',
 	image: 'img/speakers/chase-mccarthy.png',
 	twitter: 'code0100fun',
-	types: ['podcast'],
+	isPodcast: true,
+	isEvent: false,
 	current: true
 },
 {
@@ -155,7 +174,8 @@ export default [{
 	title: 'EmberWeekend',
 	image: 'img/speakers/jonathan-jackson.png',
 	twitter: 'rondale_sc',
-	types: ['podcast'],
+	isPodcast: true,
+	isEvent: false,
 	current: true
 },
 {
@@ -163,7 +183,8 @@ export default [{
 	title: 'EmberSherpa',
 	image: 'img/speakers/taras-mankovski.jpeg',
 	twitter: 'embersherpa',
-	types: ['podcast'],
+	isPodcast: true,
+	isEvent: false,
 	current: true
 },
 {
@@ -171,7 +192,8 @@ export default [{
 	title: 'Founder, HiRez.io',
 	image: 'img/speakers/shai-reznik.jpg',
 	twitter: 'shai_reznik',
-	types: ['podcast'],
+	isPodcast: true,
+	isEvent: false,
 	current: true
 },
 {
@@ -179,7 +201,8 @@ export default [{
 	title: 'Angular Core Team',
 	image: 'img/speakers/hans-larsen.jpg',
 	twitter: 'hanslatwork',
-	types: ['podcast'],
+	isPodcast: true,
+	isEvent: false,
 	current: true
 },
 {
@@ -187,7 +210,8 @@ export default [{
 	title: 'Harbourmaster at Google',
 	image: 'img/speakers/sam-saccone.jpg',
 	twitter: 'samccone',
-	types: ['podcast'],
+	isPodcast: true,
+	isEvent: false,
 	current: true
 },
 {
@@ -195,7 +219,8 @@ export default [{
 	title: 'Software Architect, CareerBuilder',
 	image: 'img/speakers/zackary-chapple.jpg',
 	twitter: 'zchapple',
-	types: ['podcast'],
+	isPodcast: true,
+	isEvent: false,
 	current: true
 },
 {
@@ -203,15 +228,17 @@ export default [{
 	title: 'Writer, CSS Tricks',
 	image: 'img/speakers/sarah-drasner.jpg',
 	twitter: 'sarah_edo',
-	types: ['podcast'],
+	isPodcast: true,
+	isEvent: false,
 	current: true
 },
 {
 	cardTitle: 'Katherine Poulter',
-	title: '',
+	title: 'Software Engineer',
 	image: 'img/speakers/kat-poulter.jpg',
 	twitter: 'katpoulter',
-	types: ['podcast'],
+	isPodcast: true,
+	isEvent: false,
 	current: true
 },
 {
@@ -219,7 +246,8 @@ export default [{
 	title: 'Organizer, ReactJS SF',
 	image: 'img/speakers/devon-lindsey.jpg',
 	twitter: 'devonbl',
-	types: ['podcast'],
+	isPodcast: true,
+	isEvent: false,
 	current: true
 },
 {
@@ -227,7 +255,8 @@ export default [{
 	title: 'Founder, Modern Web',
 	image: 'img/speakers/tracy-lee.jpg',
 	twitter: 'ladyleet',
-	types: ['podcast'],
+	isPodcast: true,
+	isEvent: false,
 	current: true
 },
 {
@@ -235,15 +264,17 @@ export default [{
 	title: 'Babel Core Team',
 	image: 'img/speakers/henry-zhu.jpeg',
 	twitter: 'left_pad',
-	types: ['podcast'],
+	isPodcast: true,
+	isEvent: false,
 	current: true
 },
 {
 	cardTitle: 'Raquel Moss',
 	title: 'Software Developer',
-	image: 'img/speakers/raquel-moss.jpeg',
+	image: 'img/speakers/raquel-moss.png',
 	twitter: 'raquelxmoss',
-	types: ['podcast'],
+	isPodcast: true,
+	isEvent: false,
 	current: true
 },
 {
@@ -251,7 +282,8 @@ export default [{
 	title: 'Founder, React Training',
 	image: 'img/speakers/michael-jackson.jpeg',
 	twitter: 'mjackson',
-	types: ['podcast', 'event'],
+	isPodcast: true,
+	isEvent: true,
 	current: true
 },
 {
@@ -259,7 +291,8 @@ export default [{
 	title: 'Stack Architect, Netflix',
 	image: 'img/speakers/stephen-rivas.jpeg',
 	twitter: 'sprjrx',
-	types: ['podcast', 'event'],
+	isPodcast: true,
+	isEvent: true,
 	current: true
 },
 {
@@ -267,7 +300,8 @@ export default [{
 	title: 'Software Engineer, Fact0ry',
 	image: 'img/speakers/andrew-joslin.jpg',
 	twitter: 'andrewtjoslin',
-	types: ['event'],
+	isPodcast: false,
+	isEvent: true,
 	current: true
 },
 {
@@ -275,7 +309,8 @@ export default [{
 	title: 'Latinos in Tech',
 	image: 'img/speakers/dvid-silva.jpg',
 	twitter: 'dvidsilva',
-	types: ['event'],
+	isPodcast: false,
+	isEvent: true,
 	current: true
 },
 {
@@ -283,7 +318,8 @@ export default [{
 	title: 'CTO AnnieCannons, GDE',
 	image: 'img/speakers/aysegul-yonet.jpg',
 	twitter: 'aysegulyonet',
-	types: ['event'],
+	isPodcast: false,
+	isEvent: true,
 	current: true
 },
 {
@@ -291,7 +327,8 @@ export default [{
 	title: 'Angular Class',
 	image: 'img/speakers/scott-moss.jpeg',
 	twitter: 'scotups',
-	types: ['event'],
+	isPodcast: false,
+	isEvent: true,
 	current: true
 },
 {
@@ -299,7 +336,8 @@ export default [{
 	title: 'Angular Class',
 	image: 'img/speakers/patrick-stapleton.jpg',
 	twitter: 'gdi2290',
-	types: ['event'],
+	isPodcast: false,
+	isEvent: true,
 	current: true
 },
 {
@@ -307,7 +345,8 @@ export default [{
 	title: 'Angular-CLI Core Team',
 	image: 'img/speakers/mike-brocchi.jpg',
 	twitter: 'brocco',
-	types: ['event', 'podcast'],
+	isPodcast: true,
+	isEvent: true,
 	current: true
 },
 {
@@ -315,7 +354,8 @@ export default [{
 	title: 'Software Engineer, Fastly',
 	image: 'img/speakers/jade-applegate.jpg',
 	twitter: 'jadeapplegate',
-	types: ['event'],
+	isPodcast: false,
+	isEvent: true,
 	current: true
 },
 {
@@ -323,7 +363,8 @@ export default [{
 	title: 'Codefresh',
 	image: 'img/speakers/domenic-merenda.png',
 	twitter: 'domthewop',
-	types: ['event'],
+	isPodcast: false,
+	isEvent: true,
 	current: true
 },
 {
@@ -331,7 +372,8 @@ export default [{
 	title: 'Developer Advocate, Back&',
 	image: 'img/speakers/matt-billock.jpg',
 	twitter: 'backand_',
-	types: ['event'],
+	isPodcast: false,
+	isEvent: true,
 	current: true
 },
 {
@@ -339,7 +381,8 @@ export default [{
 	title: 'Founder, Deco Software',
 	image: 'img/speakers/devin-abbott.jpg',
 	twitter: 'devinaabbott',
-	types: ['event'],
+	isPodcast: false,
+	isEvent: true,
 	current: true
 },
 {
@@ -347,7 +390,8 @@ export default [{
 	title: 'Web Developer, Twitter',
 	image: 'img/speakers/jon-kuperman.jpeg',
 	twitter: 'jkup',
-	types: ['event', 'podcast'],
+	isPodcast: true,
+	isEvent: true,
 	current: true
 },
 {
@@ -355,7 +399,8 @@ export default [{
 	title: 'JavaScript Engineer, PayPal',
 	image: 'img/speakers/kent-dodds.jpg',
 	twitter: 'kentcdodds',
-	types: ['podcast'],
+	isPodcast: true,
+	isEvent: true,
 	current: true
 },
 {
@@ -363,7 +408,8 @@ export default [{
 	title: 'Vaadin',
 	image: 'img/speakers/marcus-hellberg.jpg',
 	twitter: 'marcushellberg',
-	types: ['event'],
+	isPodcast: false,
+	isEvent: true,
 	current: true
 },
 {
@@ -371,7 +417,8 @@ export default [{
 	title: 'Polymer Core Team',
 	image: 'img/speakers/arthur-evans.jpeg',
 	twitter: 'devdocdude',
-	types: ['event'],
+	isPodcast: false,
+	isEvent: true,
 	current: true
 },
 {
@@ -379,7 +426,8 @@ export default [{
 	title: 'Polymer Core Team',
 	image: 'img/speakers/peter-burns.jpg',
 	twitter: 'rictic',
-	types: ['event'],
+	isPodcast: false,
+	isEvent: true,
 	current: true
 },
 {
@@ -387,7 +435,8 @@ export default [{
 	title: 'Polymer Core Team',
 	image: 'img/speakers/justin-fagnani.jpeg',
 	twitter: 'justinfagnani',
-	types: ['event'],
+	isPodcast: false,
+	isEvent: true,
 	current: true
 },
 {
@@ -395,15 +444,17 @@ export default [{
 	title: 'Google Developer Expert, Polymer',
 	image: 'img/speakers/justin-ribeiro.jpeg',
 	twitter: 'justinfagnani',
-	types: ['podcast'],
+	isPodcast: true,
+	isEvent: false,
 	current: true
 },
 {
 	cardTitle: 'Rob Dodson',
-	title: 'Chrome Developer Advocate, Polymer Team',
+	title: 'Chrome Developer Advocate',
 	image: 'img/speakers/rob-dodson.jpeg',
 	twitter: 'rob_dodson',
-	types: ['event', 'podcast'],
+	isPodcast: true,
+	isEvent: true,
 	current: true
 },
 {
@@ -411,7 +462,8 @@ export default [{
 	title: 'Angular Core Team',
 	image: 'img/speakers/kara-erickson.jpg',
 	twitter: 'karaforthewin',
-	types: ['event'],
+	isPodcast: false,
+	isEvent: true,
 	current: true
 },
 {
@@ -419,7 +471,8 @@ export default [{
 	title: 'Angular Core Team',
 	image: 'img/speakers/victor-savkin.jpg',
 	twitter: 'victorsavkin',
-	types: ['event', 'podcast'],
+	isPodcast: true,
+	isEvent: true,
 	current: true
 },
 {
@@ -427,7 +480,8 @@ export default [{
 	title: 'Angular Core Team',
 	image: 'img/speakers/alex-eagle.jpg',
 	twitter: 'jakeherringbone',
-	types: ['event', 'podcast'],
+	isPodcast: true,
+	isEvent: true,
 	current: true
 },
 {
@@ -435,7 +489,8 @@ export default [{
 	title: 'Angular Core Team',
 	image: 'img/speakers/jeff-cross.jpg',
 	twitter: 'jeffbcross',
-	types: ['event', 'podcast'],
+	isPodcast: true,
+	isEvent: true,
 	current: true
 },
 {
@@ -443,7 +498,8 @@ export default [{
 	title: 'BabelJS Core Team',
 	image: 'img/speakers/james-kyle.jpg',
 	twitter: 'thejameskyle',
-	types: ['event', 'podcast'],
+	isPodcast: true,
+	isEvent: true,
 	current: true
 },
 {
@@ -451,7 +507,8 @@ export default [{
 	title: 'RxJS 5 Lead',
 	image: 'img/speakers/ben-lesh-2.jpg',
 	twitter: 'benlesh',
-	types: ['event', 'podcast'],
+	isPodcast: true,
+	isEvent: true,
 	current: true
 },
 {
@@ -459,7 +516,8 @@ export default [{
 	title: 'Creator PhantomJS, Esprima',
 	image: 'img/speakers/ariya-hidayat.jpg',
 	twitter: 'ariyahidayat',
-	types: ['event'],
+	isPodcast: false,
+	isEvent: true,
 	current: true
 },
 {
@@ -467,7 +525,8 @@ export default [{
 	title: 'Ember Core Team',
 	image: 'img/speakers/stefan-penner.jpeg',
 	twitter: 'stefanpenner',
-	types: ['event'],
+	isPodcast: false,
+	isEvent: true,
 	current: true
 },
 {
@@ -475,7 +534,8 @@ export default [{
 	title: 'Cross-Team Lead at Netflix, TC39 Member',
 	image: 'img/speakers/jafar-husain.jpg',
 	twitter: 'jhusain',
-	types: ['event', 'podcast'],
+	isPodcast: true,
+	isEvent: true,
 	current: true
 },
 {
@@ -483,7 +543,8 @@ export default [{
 	title: 'Senior Front End Engineer at Netflix',
 	image: 'img/speakers/jay-phelps.jpeg',
 	twitter: '_jayphelps',
-	types: ['event', 'podcast'],
+	isPodcast: true,
+	isEvent: true,
 	current: true
 },
 {
@@ -491,7 +552,8 @@ export default [{
 	title: 'Rails Core Team, Ember Core Team',
 	image: 'img/speakers/godfrey-chan.jpg',
 	twitter: 'chancancode',
-	types: ['event'],
+	isPodcast: false,
+	isEvent: true,
 	current: true
 },
 {
@@ -499,7 +561,8 @@ export default [{
 	title: 'EmberJS Core Team',
 	image: 'img/speakers/yehuda-katz.jpg',
 	twitter: 'wycats',
-	types: ['event', 'podcast'],
+	isPodcast: true,
+	isEvent: true,
 	current: true
 },
 {
@@ -507,7 +570,8 @@ export default [{
 	title: 'Ember-CLI Core Team',
 	image: 'img/speakers/nathan-hammond.jpg',
 	twitter: 'nathanhammond',
-	types: ['event'],
+	isPodcast: false,
+	isEvent: true,
 	current: true
 },
 {
@@ -515,7 +579,8 @@ export default [{
 	title: 'React Core Team',
 	image: 'img/speakers/jim-sproch.jpg',
 	twitter: 'reactjs',
-	types: ['event'],
+	isPodcast: false,
+	isEvent: true,
 	current: true
 },
 {
@@ -523,6 +588,7 @@ export default [{
 	title: 'Developing Web Components',
 	image: 'img/speakers/jarrod-overson.jpg',
 	twitter: 'jsoverson',
-	types: ['event'],
+	isPodcast: false,
+	isEvent: true,
 	current: true
 }];

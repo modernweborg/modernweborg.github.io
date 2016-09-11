@@ -5,6 +5,255 @@ export default Ember.Route.extend({
     return {
       podcasts: [{
         type: 'youtube',
+        id: 'N-lfi9DumlM',
+        vanity: 's03e09-babili-babeljs-flow',
+        title: 'S03E09 - Introducing Babili, Babels New Minifier and some Flow (React Rally Edition)',
+        description: 'We interview Henry Zhu (@left_pad) on babels new minifier - babili. Babili is a minifier based on the babel toolchain. They discuss how babili might minify bananas and power rangers, the babel plugin - emojification, how Sebastian McKenzie once blocked Jay Phelps on twitter, why babili is important for the JS ecosystem, flow and using babel with flow, contributing to interesting open source projects, bit manipulation languages, and TrumpScript.',
+        presenters: [{
+          name: 'Henry Zhu',
+          twitter: 'left_pad'
+        }, {
+          name: 'Ben Lesh',
+          twitter: 'benlesh'
+        }, {
+          name: 'Jay Phelps',
+          twitter: '_jayphelps'
+        }]
+      }, {
+        type: 'youtube',
+        id: 'PUG5AqBD3T4',
+        vanity: 's03e08-oss-contributions-conference-talks',
+        title: 'S03E08 - Your First Contribution to OSS and Conference Talks (React Rally Edition)',
+        description: 'Raquel Moss (@raquelxmoss), Kent C. Dodds (@kentcdodds), and Ben Lesh (@benlesh) sit down at React Rally to discuss the conference, what makes for a good presentation, and how to feel comfortable speaking at conferences. Kent shows us how to do air squats before they discuss Raquel’s recent contribution to CycleJS core, beginner contributions to open source, tips on how to think about your first contributions, and the benefits of ReactJS.',
+        presenters: [{
+          name: 'Raquel Moss',
+          twitter: 'raquelxmoss'
+        }, {
+          name: 'Ben Lesh',
+          twitter: 'benlesh'
+        }, {
+          name: 'Kent C. Dodds',
+          twitter: 'kentcdodds'
+        }]
+      }, {
+        type: 'youtube',
+        id: 'KDOTbvey-jI',
+        vanity: 's03e07-reactjs-tc39-cancellable-promises-nodejs',
+        title: 'S03E07 - React, Node, TC39, Cancellable Promises, and Observables, Oh My! (React Rally Edition)',
+        description: 'Tracy Lee interviews Ben Lesh at React Rally. They discuss the React community compared to other JavaScript communities, which they boil down to being very similar to a “choose-your-own-adventure”. Important things to note in this podcast: The benefits and costs of new ES2015 features, Node’s position in the JavaScript ecosystem and how TC39 standards are affecting the node ecosystem, senior developers mentoring and making junior developers feel comfortable, the promises spec and cancellation tokens with observables. Other topics: how React trainings differ from Angular or Ember trainings, the new create-react-app and why it’s so amazing, the new screencast site Yolobrolo, and why @godtributes is the most amazing twitter bot ever. Ben also might have said that Dan Abramov is a React superstar, but you’ll have to listen to be sure. Tracy called out Ben on not wearing the hat that Sam Saccone’s mother purchased him.',
+        presenters: [{
+          name: 'Tracy Lee',
+          twitter: 'ladyleet'
+        }, {
+          name: 'Ben Lesh',
+          twitter: 'benlesh'
+        }]
+      }, {
+        type: 'youtube',
+        id: '9qvqpHXDRRQ',
+        vanity: 's03e06-react-router-history-js-state',
+        title: 'S03E06 - React Router, HistoryJS, State Management, Webpack vs Rollup, and more (React Rally)',
+        description: 'Michael Jackson, Stephen Rivas Jr, and Jay Phelps discuss React and other front end frameworks at React Rally. Topics covered: Create-react-app - How using ember prior to react has affected the thinking behind working on react - React trainings - Building complex react apps - Webpack vs Rollup - HistoryJS (react history) - How you should approach open source projects - React Router v4 - Early mistakes in the early router - Previews some of the changes happening with react router and react history -Integration of redux with react router and react history - React Router 4 - State management in react.',
+        presenters: [{
+          name: 'Michael Jackson',
+          twitter: 'mjackson'
+        }, {
+          name: 'Stephen Rivas Jr.',
+          twitter: 'sprjrx'
+        },{
+          name: 'Jay Phelps',
+          twitter: '_jayphelps'
+        }]
+      }, {
+        type: 'youtube',
+        id: 'hozpCdvObA0',
+        vanity: 's03e05-open-sourcery-react-community',
+        title: 'S03E05 - Open Sourcery and The React Community (React Rally Edition)',
+        description: 'Modern Web sits down with Devon Lindsey (@devonbl), Sarah Drasner (@sarah_edo), James Kyle (@thejameskyle), and Katherine Poulter (@katpoulter) at React Rally (@reactrally). Our main goal was to put them in power ranger outfits. Watch as they discuss the benefits of being an individual technical contributor versus taking the management route. The four share their views on the excitement of being a JavaScript developer, learning new technologies and how the trend of openly sharing code has helped speed up the evolution of OSS and technology. Other topics discussed are companies giving engineers time for open source projects, how awesome the React community is at being nice to each other, and how conferences help you get to know community leaders better.',
+        presenters: [{
+          name: 'Devon Lindsey',
+          twitter: 'devonbl'
+        }, {
+          name: 'Katherine Poulter',
+          twitter: 'katpoulter'
+        },{
+          name: 'Sarah Drasner',
+          twitter: 'sarah_edo'
+        }, {
+          name: 'James Kyle',
+          twitter: 'thejameskyle'
+        }]
+      }, {
+        type: 'podbean',
+        id: 'cnast-626357',
+        vanity: 's03e04-thepracticaldev',
+        title: 'S03E04 - The Truth Behind The Practical Dev',
+        description: 'We interview Ben Halpern, the voice behind the famous twitter handle, @ThePracticalDev. Did you know you can tweet The Practical Dev about your javascript homework? This podcast gives us a fun and quick view into what its like behind the scenes as The Practical Dev. Learn about the organization and its the future. Hear stories about run-ins with Tim OReilly, the JavaScript community, and how why Sebastian McKenzie once blocked Jay Phelps on Twitter. Hint It was Sam Saccones fault.',
+        presenters: [{
+          name: 'Ben Halpern',
+          twitter: 'thepracticaldev'
+        }, {
+          name: 'Ben Lesh',
+          twitter: 'benlesh'
+        },{
+          name: 'Tracy Lee',
+          twitter: 'ladyleet'
+        }],
+        imageURL: '/img/podcasts/modern-web-play-button.jpg'
+      }, {
+        type: 'podbean',
+        id: 'wngjr-613eed',
+        vanity: 's03e03-authentication-authorization-emberjs',
+        title: 'S03E03 - Authorization vs Authentication in Ember with Rock ‘n Roll Ember',
+        description: 'In this podcast episode, Taras Mankovski, aka EmberSherpa, interviews Balint Erdi, the author of Rock and Roll with Ember about authentication and authorization in Ember applications. They discuss common authentication strategies and how to implement them with addons like Ember Simple Auth and Torii.',
+        presenters: [{
+          name: 'Balint Erdi',
+          twitter: 'baaz'
+        }, {
+          name: 'Taras Mankovski',
+          twitter: 'embersherpa'
+        }],
+        imageURL: '/img/podcasts/modern-web-play-button.jpg'
+      }, {
+        type: 'podbean',
+        id: 'zhrxa-610f07',
+        vanity: 's03e02-d3-solutions-in-emberjs',
+        title: 'S03E02 - D3 Solutions in Ember and Composable Helpers',
+        description: 'Ivan Vanderbyl (Co-Founder, flood.io) and Taras Mankovski (Founder, EmberSherpa), 2 Ember developers have a discussion around D3 in Ember and the solutions they have been working on to make graphing easier with the framework using add-ons. Ivan and Taras have been working on separate D3 ember solutions - ember-d3-helpers and maximum plaid. This podcast illustrates how separate projects solving the same problems in a community can converge and move towards a common solution. Discussion revolves around using composable helpers and creating solutions on an atomic level that can be used to solve problems across various unrelated matters.',
+        presenters: [{
+          name: 'Ivan Vanderbyl',
+          twitter: 'ivanderbyl'
+        }, {
+          name: 'Taras Mankovski',
+          twitter: 'embersherpa'
+        }],
+        imageURL: '/img/podcasts/modern-web-play-button.jpg'
+      }, {
+        type: 'podbean',
+        id: '2f332-610f18',
+        vanity: 's03e01-react-community-evolution',
+        title: 'S3E01 - The Evolution of the React Community & React Rally',
+        description: 'Ben Lesh and Tracy Lee interview Zabriskies Beard and Jamison Dance on the accidental creation of React Rally, how the JavaScript framework communities are organically formed based on the strength of the frameworks opinions and exploration into why the react community exists in the form that it does. Also discussed are Power Rangers fighting bananas at React Rally, how redux is pushing the envelope for react developers to solve harder problems, and discussing the possibilities of a future react cli.',
+        presenters: [{
+          name: 'Ben Lesh',
+          twitter: 'benlesh'
+        }, {
+          name: 'Tracy Lee',
+          twitter: 'ladyleet'
+        }, {
+          name: 'Matt Zabriskie',
+          twitter: 'mzabriskie'
+        }, {
+          name: 'Jamison Dance',
+          twitter: 'jergason'
+        }],
+        imageURL: '/img/podcasts/modern-web-play-button.jpg'
+      }, {
+        type: 'youtube',
+        id: 'uqYK_xDmafA',
+        vanity: 's02e09-angular-2',
+        title: 'S02E09 - How Angular 2 is Changing the Way Developers Think about JavaScript',
+        description: 'Since Angular 2, the demand for Angular training has increased dramatically. Bill and Zack discuss how Angular 2s use of TypeScript has changed the perspective of JavaScript to .net and java developers and the gratification of teaching JavaScript to new and experienced developers. Bill talks about the contrast between teaching Angular1x and Angular 2, how angular-cli is changing the way developers think about JavaScript, and how the greater whole of the AngularJS teaching community works together to support each other.',
+        presenters: [{
+          name: 'Bill Odom',
+          twitter: 'wnodom'
+        }, {
+          name: 'Zack Chapple',
+          twitter: 'zchapple'
+        }]
+      }, {
+        type: 'youtube',
+        id: 'vpy53pQU4yk',
+        vanity: 's02e08-contributing-to-oss',
+        title: 'S02E08 - Contributing to Open Source - A Discussion with Ben Lesh and Zack Chapple',
+        description: 'In this episode we explore contributing to the open source community, dos and donts for a beginner, and get the perspective of two well seasoned OSS contributors Ben Lesh and Zack Chapple. You can follow Ben Lesh @benlesh, Zack Chapple @zchapple, and Tracy Lee @ladyleet on Twitter.',
+        presenters: [{
+          name: 'Tracy Lee',
+          twitter: 'ladyleet'
+        }, {
+          name: 'Ben Lesh',
+          twitter: 'benlesh'
+        }, {
+          name: 'Zack Chapple',
+          twitter: 'zchapple'
+        }]
+      }, {
+        type: 'podbean',
+        id: 'nd5md-60b952',
+        vanity: 's02e07-accessibility-in-emberjs',
+        title: 'S02E07 - Accessibility for the web. Meet these dedicated ember.js community members',
+        description: 'In this podcast episode, we speak to a strong and dedicated set of the ember.js community focused on making accessibility better for the web. Making the web accessible is one of the biggest challenges for developers. Luckily, standards bodies have quickly moved to adapt and make necessary changes to improve the experience for us. We speak to Nathan Hammond @nathanhammond, Suz Hinton @noopkat, Jamie White @jgwhite, Ben Holmes @binhums, George Chapman @gnchampman, and Robert DeLuca @robdel12 on their passion and the driving force behind this effort. Topics covered: What does accessibility look like in ember and single page applications in general? Why open source community members are passionate about accessibility on the web. How the ember community has come together through making the web more accessible through creating useful ember add ons within the community. What are the easy and difficult things about accessibility. How html5 has enabled accessibility by default. How many companies should start thinking about the power of being accessible by default. How large teams like Kickstarter start incorporating accessibility into their process, even during the design phase. Building accessibility into your continuous integration flow. What you should be investing in as a developer.',
+        presenters: [{
+          name: 'Nathan Hammond',
+          twitter: 'nathanhammond'
+        }, {
+          name: 'Jamie White',
+          twitter: 'jgwhite'
+        }, {
+          name: 'Suz Hinton',
+          twitter: 'noopkat'
+        }, {
+          name: 'Ben Holmes',
+          twitter: 'binhums'
+        }, {
+          name: 'George Chapman',
+          twitter: 'gnchapman'
+        }, {
+          name: 'Robert DeLuca',
+          twitter: 'robdel12'
+        }],
+        imageURL: '/img/podcasts/modern-web-play-button.jpg'
+      }, {
+        type: 'podbean',
+        id: 'dxxtf-6094e3',
+        vanity: 's02e06-ionic-2',
+        title: 'S02E06 - Ionic2 Status Update with Ionic Team members Brandy Carney and Adam Bradley',
+        description: 'In this podcast episode, we speak to Brandy Carney and Adam Bradley of the Ionic2 framework, whats coming down the pipeline, the Ionic CLI, what the integration with Angular 2 is shaping up to look like, and how they feel about Jeff Cross beard and David Easts ollie skills. Follow Brandy Carney (@brandyscarney), Adam Bradley (@adamdbradley), Ben Lesh (@benlesh), and myself Tracy Lee (@ladyleet) on Twitter for more JavaScript fun.',
+        presenters: [{
+          name: 'Ben Lesh',
+          twitter: 'benlesh'
+        }, {
+          name: 'Brandy Carney',
+          twitter: 'brandyscarney'
+        }, {
+          name: 'Adam Bradley',
+          twitter: 'adamdbradley'
+        }, {
+          name: 'Tracy Lee',
+          twitter: 'ladyleet'
+        }],
+        imageURL: '/img/podcasts/modern-web-play-button.jpg'
+      }, {
+        type: 'youtube',
+        id: 'hx6qAbpYwdQ',
+        vanity: 's02e04-laughter-at-conferences',
+        title: 'S02E04 - Bringing Laughter and Excitement to Conferences and How to be a Better Speaker',
+        description: 'In this special episode, Ben and Shai crawl into bed together dressed as dinosaurs and talk about his career as a comedian, how hes bringing laughter and excitement to the Angular community, and give advice to developers for speaking at conferences.',
+        presenters: [{
+          name: 'Ben Lesh',
+          twitter: 'benlesh'
+        }, {
+          name: 'Shai Reznik',
+          twitter: 'shai_reznik'
+        }]
+      }, {
+        type: 'youtube',
+        id: 'EVGEOgfB2Zg',
+        vanity: 's02e03-angular-cli',
+        title: 'S02E03 - The Direction of Angular CLI with Hans Larsen',
+        description: 'Ben Lesh and Zack Chapple interview Hans Larsen on Angular CLI and the future of this awesome tool at Ng-conf.',
+        presenters: [{
+          name: 'Ben Lesh',
+          twitter: 'benlesh'
+        }, {
+          name: 'Zack Chapple',
+          twitter: 'zchapple'
+        }, {
+          name: 'Hans Larsen',
+          twitter: 'hanslatwork'
+        }]
+      }, {
+        type: 'youtube',
         id: '65-WwVfAcl8',
         vanity: 's02e02-promise-cancellation',
         title: 'S02E02 - A Debate about Promise Cancellation with Sam Saccone and Ben Lesh',
