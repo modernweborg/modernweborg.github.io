@@ -12,7 +12,7 @@
     "jquery": "2.1.4",
     "loader.js": "ember-cli/loader.js#3.4.0",
     "qunit": "~1.17.1",
-    "materialize": "~0.97.0",
+    "materialize": "0.97.6",
     "firebase": "^2.1.0"
   },
   "resolutions": {
