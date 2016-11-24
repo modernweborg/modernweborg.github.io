@@ -10,9 +10,7 @@ Router.map(function() {
   this.route('modern-web-podcast', function() {
     this.route('podcast', {path:'podcast/:vanity'});
   });
-  this.route('welcome');
   this.route('friends');
-  this.route('signup-page');
   this.route('sign-up', function() {
     this.route('new');
   });

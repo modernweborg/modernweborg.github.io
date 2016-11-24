@@ -1,0 +1,7 @@
+{{#if image}}
+  <div class="card-image {{if activator 'waves-effect'}} {{if activator 'waves-block'}} {{if activator 'waves-light'}}">
+    <img src="{{image}}" class="{{if activator 'activator'}}"/>
+  </div>
+{{/if}}
+
+{{yield}}
