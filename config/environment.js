@@ -4,19 +4,16 @@ module.exports = function(environment) {
   var ENV = {
     modulePrefix: 'modernweb',
     environment: environment,
-    contentSecurityPolicy: {
-      'style-src':   "'self' 'unsafe-inline'",
-      'connect-src': "'self' https://auth.firebase.com wss://*.firebaseio.com http://gdata.youtube.com",
-      'frame-src':   "'self' https://w.soundcloud.com https://www.youtube.com",
-      'img-src':     "'self' http://img.youtube.com"
-    },
-    firebase: 'https://modern-web-site.firebaseio.com/',
-    baseURL: '/',
-    locationType: 'hash',
+    rootURL: '/',
+    locationType: 'auto',
     EmberENV: {
       FEATURES: {
         // Here you can enable experimental features on an ember canary build
         // e.g. 'with-controller': true
+      },
+      EXTEND_PROTOTYPES: {
+        // Prevent Ember Data from overriding Date.parse.
+        Date: false
       }
     },
 
@@ -36,7 +33,6 @@ module.exports = function(environment) {
 
   if (environment === 'test') {
     // Testem prefers this...
-    ENV.baseURL = '/';
     ENV.locationType = 'none';
 
     // keep test console output quieter
@@ -47,7 +43,7 @@ module.exports = function(environment) {
   }
 
   if (environment === 'production') {
-    ENV.baseURL = '/';
+
   }
 
   return ENV;
