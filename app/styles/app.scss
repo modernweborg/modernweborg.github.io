@@ -285,3 +285,7 @@ $medium-only: "only screen and (min-width : #{$small-screen-up}) and (max-width 
     @include column-count(3);
   }
 }
+
+.new-cards-container .card {
+  min-height: 349px;
+}
