@@ -1,16 +1,9 @@
-// import Ember from 'ember';
-// import FirebaseAdapter from 'emberfire/adapters/firebase';
+import DS from 'ember-data';
 
-// const { inject } = Ember;
+export default DS.JSONAPIAdapter.extend(DS.BuildURLMixin, {
+  namespace: 'api/blog/',
 
-// export default FirebaseAdapter.extend({
-//   firebase: inject.service(),
-// });
-
-import config from '../config/environment';
-import Firebase from 'firebase';
-import FirebaseAdapter from 'emberfire/adapters/firebase';
-
-export default FirebaseAdapter.extend({
-  firebase: new Firebase(config.firebase)
+  urlForFindAll() {
+    return `${this._super(...arguments)}.json`;
+  }
 });
