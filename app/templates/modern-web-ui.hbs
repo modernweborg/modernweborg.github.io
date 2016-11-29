@@ -4,29 +4,11 @@
 </div>
 
 <div class="new-cards-container">
-	{{#each model.grouped as |videoGroup| }}
-		<div class="row">
-			{{#each videoGroup as |video|}}
-
-        {{log video}}
-				<div class="col l3 m6 s12">
-          <a href="{{video.videoURL}}">
-						<div class="card black-text" style="min-height: 349px">
-	            <div class="card-image">
-									{{#if (eq video.type 'podbean')}}
-										<img src="{{video.imageURL}}"/>
-									{{else}}
-										<div class='video static-video responsive-img' style='background-image:url("{{video.imageURL}}")' alt={{video.title}}></div>
-									{{/if}}
-	            </div>
-
-              <div class="card-content">
-                <h5>{{video.title}}</h5>
-              </div>
-	          </div>
-          </a>
-				</div>
-			{{/each}}
-		</div>
-	{{/each}}
+	<div class="row">
+		{{#each model as |podcast|}}
+			<div class="col l3 m6 s12">
+				{{video-card video=podcast}}
+			</div>
+		{{/each}}
+	</div>
 </div>

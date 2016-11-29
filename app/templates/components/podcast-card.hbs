@@ -3,7 +3,7 @@
     {{#if (eq podcast.kind 'podbean')}}
       <img src="{{podcast.imageUrl}}"/>
     {{else}}
-      <div class='video static-podcast responsive-img' style='background-image:url("http://img.youtube.com/vi/{{podcast.mediaId}}/hqdefault.jpg")' alt={{podcast.title}}></div>
+      <div class='video static-podcast responsive-img' style={{youtube-thumb podcast.mediaId}}></div>
     {{/if}}
 
     <span class="card-title force-wrap {{if (eq podcast.kind 'podbean') 'black-text white-text-background'}}">{{podcast.title}}</span>

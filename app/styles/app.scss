@@ -286,6 +286,18 @@ $medium-only: "only screen and (min-width : #{$small-screen-up}) and (max-width 
   }
 }
 
-.new-cards-container .card {
-  min-height: 349px;
+.new-cards-container {
+  .row {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    .l3.m6.s12 {
+      float: none;
+      margin-left: 0;
+      margin-right: 0;
+    }
+  }
+  .card {
+    min-height: 349px;
+  }
 }
