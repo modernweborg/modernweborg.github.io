@@ -4,33 +4,24 @@ export default Ember.Component.extend({
   tagName: '',
   hasClicked: false,
 
-  descriptionParagraphs: Ember.computed('model.description', function() {
-    var description = this.get('model.description');
-    if (description && description.length) {
-      return description.split('\n');
-    } else {
-      return [];
-    }
-  }),
-
-  iframeURL: Ember.computed('model.id', 'model.type', function() {
-    switch (this.get('model.type')) {
+  iframeURL: Ember.computed('model.mediaId', 'model.kind', function() {
+    switch (this.get('model.kind')) {
       case 'youtube':
-        return 'https://www.youtube.com/embed/' + this.get('model.id') + '?rel=0&autoplay=1';
+        return 'https://www.youtube.com/embed/' + this.get('model.mediaId') + '?rel=0&autoplay=1';
 
       case 'podbean':
-        return 'https://www.podbean.com/media/player/' + this.get('model.id') + '?skin=109&auto=1';
+        return 'https://www.podbean.com/media/player/' + this.get('model.mediaId') + '?skin=109&auto=1';
 
       default:
-        throw new Error('Unknown model type: ' + this.get('model.type'));
+        throw new Error('Unknown model type: ' + this.get('model.kind'));
     }
   }),
 
-  imageURL: Ember.computed('model.imageURL', 'model.id', function() {
-    var imageURL = this.get('model.imageURL');
+  imageURL: Ember.computed('model.imageUrl', 'model.mediaId', function() {
+    var imageURL = this.get('model.imageUrl');
 
     if (!imageURL) {
-      imageURL = 'http://img.youtube.com/vi/' + this.get('model.id') + '/hqdefault.jpg';
+      imageURL = 'http://img.youtube.com/vi/' + this.get('mediaId.id') + '/hqdefault.jpg';
     }
 
     return imageURL;

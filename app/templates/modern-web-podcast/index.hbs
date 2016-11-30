@@ -6,44 +6,14 @@
 </div>
 <!-- end title -->
 
-{{!-- snap button --}}
-<div class="row">
-	<div class="col s12 right-align margin-bottom-30">
-		{{link-to 'Snapchat & Conferences' 'snapchat' class='btn pink'}}
-	</div>
-</div>
-{{!-- end snap button --}}
-
-
 <div class="new-cards-container">
-	{{#each model.groupedPodcasts as |podcastGroup| }}
-		<div class="row">
-			{{#each podcastGroup as |podcast|}}
-				<div class="col l3 m6 s12">
-						<div class="card black-text" style="min-height: 349px">
-	            <div class="card-image">
-								{{#link-to 'modern-web-podcast.podcast' podcast.vanity}}
-									{{#if (eq podcast.type 'podbean')}}
-										<img src="{{podcast.imageURL}}"/>
-									{{else}}
-										<div class='video static-podcast responsive-img' style='background-image:url("{{podcast.imageURL}}")' alt={{podcast.title}}></div>
-									{{/if}}
-
-		              <span class="card-title force-wrap {{if (eq podcast.type 'podbean') 'black-text white-text-background'}}">{{podcast.title}}</span>
-								{{/link-to}}
-	            </div>
-	            <div class="card-content">
-								{{#read-more maxHeight="3.1em"}}
-									{{#each podcast.descriptionParagraphs as |description|}}
-						        <p>{{description}}</p>
-						      {{/each}}
-								{{/read-more}}
-	            </div>
-	          </div>
-				</div>
-			{{/each}}
-		</div>
-	{{/each}}
+	<div class="row">
+		{{#each model as |podcast|}}
+			<div class="col l3 m6 s12">
+				{{podcast-card podcast=podcast}}
+			</div>
+		{{/each}}
+	</div>
 </div>
 
 

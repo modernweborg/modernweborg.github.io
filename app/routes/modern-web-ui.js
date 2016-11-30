@@ -1,25 +1,24 @@
 import Ember from 'ember';
-import speakers from 'modernweb/utils/speakers';
-import videos from 'modernweb/utils/featuredvideo';
-import groupsOf from 'modernweb/utils/groupsOf';
-import ensureImage from 'modernweb/utils/ensureImage';
-
-const ensureVideoURL = (video) => {
-	if (video.videoURL) {
-		return video;
-	} else {
-		return Object.assign({}, video, {
-			videoURL: `https://www.youtube.com/embed/${video.id}`
-		});
-	}
-};
+import moment from 'moment';
+const { get } = Ember;
 
 export default Ember.Route.extend({
-	model: function() {
-		return {
-			speakers: speakers.filterBy('current', true),
-			videos: videos,
-			grouped: groupsOf(4)(videos.map(ensureImage(ensureVideoURL)))
-		};
-	}
+  model() {
+    let videos = this.store.peekAll('post');
+
+    videos = videos.filterBy('section', 'video');
+    videos = videos.sort((a, b) => {
+      let dateA = moment(get(a, 'date'));
+      let dateB = moment(get(b, 'date'));
+      if (dateA.isBefore(dateB)) {
+        return 1;
+      }
+      if (dateA.isAfter(dateB)) {
+        return -1;
+      }
+      return 0;
+    });
+
+    return videos;
+  }
 });

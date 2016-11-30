@@ -1,0 +1,17 @@
+<div class="card-image">
+  {{#link-to 'modern-web-podcast.podcast' podcast.slug}}
+    {{#if (eq podcast.kind 'podbean')}}
+      <img src="{{podcast.imageUrl}}"/>
+    {{else}}
+      <div class='video static-podcast responsive-img' style={{youtube-thumb podcast.mediaId}}></div>
+    {{/if}}
+
+    <span class="card-title force-wrap {{if (eq podcast.kind 'podbean') 'black-text white-text-background'}}">{{podcast.title}}</span>
+  {{/link-to}}
+</div>
+
+<div class="card-content">
+  {{#read-more maxHeight="3.1em"}}
+    {{{podcast.body}}}
+  {{/read-more}}
+</div>
