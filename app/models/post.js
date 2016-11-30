@@ -1,13 +1,9 @@
-import Model from 'ember-data/model';
+import Post from 'ember-writer/models/post';
 import attr from 'ember-data/attr';
 
-export default Model.extend({
-  title: attr('string'),
-  date: attr('date'),
-  slug: attr('string'),
-  mediaId: attr('string'),
-  kind: attr('string'),
-  section: attr('string'),
-  imageUrl: attr('string'),
-  body: attr('string')
+export default Post.extend({
+  mediaId: attr(),
+  kind: attr(),
+  section: attr(),
+  imageUrl: attr()
 });

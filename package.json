@@ -50,7 +50,7 @@
     "ember-read-more": "0.0.13",
     "ember-resolver": "^2.0.3",
     "ember-truth-helpers": "1.2.0",
-    "ember-writer": "this-dot/ember-writer#fastboot-sandbox-ftw",
+    "ember-writer": "this-dot/ember-writer#81a96647b051658e808da0436a434f9698882edd",
     "loader.js": "^4.0.10",
     "rainbow-tail": "0.0.2"
   }
