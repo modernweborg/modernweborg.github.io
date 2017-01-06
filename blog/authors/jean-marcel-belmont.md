@@ -1,3 +1,0 @@
----
-name: Jean Marcel Belmont
----
