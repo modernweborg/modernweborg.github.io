@@ -9,6 +9,12 @@ module.exports = function(defaults) {
       includePaths: [
         'bower_components/materialize/sass'
       ]
+    },
+    fingerprint: {
+      replaceExtensions: ['html', 'js', 'css', 'json'],
+      exclude: ['assets/assetMap.json'],
+      ignore: ['assets/assetMap.json'],
+      prepend: '//storage.googleapis.com/moderndotweb/'
     }
   });
 
