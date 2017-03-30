@@ -25,7 +25,12 @@ module.exports = function(environment) {
     },
 
     fastboot: {
-      hostWhitelist: [storageHost, /^localhost:\d+$/]
+      hostWhitelist: [
+        storageHost,
+        /moderndotweb.com/,
+        /fastboot-moderndotweb-dot-this-dot.appspot.com/,
+        /^localhost:\d+$/
+      ]
     }
   };
 
