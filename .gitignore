@@ -1,5 +1,7 @@
 # See http://help.github.com/ignore-files/ for more about ignoring files.
 
+.DS_Store
+
 # compiled output
 /dist
 /tmp
@@ -13,5 +15,8 @@
 /connect.lock
 /coverage/*
 /libpeerconnection.log
-npm-debug.log
+/typings
+/jsconfig.json
+/yarn.lock
+npm-debug.log*
 testem.log

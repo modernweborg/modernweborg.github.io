@@ -1,7 +1,6 @@
 @import 'components/color';
 @import 'components/variables';
 @import 'materialize';
-@import 'ember-cli-materialize';
 
 // logo styling
 
@@ -284,5 +283,21 @@ $medium-only: "only screen and (min-width : #{$small-screen-up}) and (max-width 
 @media #{$large-and-up} {
   .cards-container {
     @include column-count(3);
+  }
+}
+
+.new-cards-container {
+  .row {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    .l3.m6.s12 {
+      float: none;
+      margin-left: 0;
+      margin-right: 0;
+    }
+  }
+  .card {
+    min-height: 349px;
   }
 }
